@@ -11,7 +11,10 @@ Given a corpous of data it generates vocabulary list that will be used by featur
 
 ## Feature Extractor
 
-TODO
+Given a vocabulary list, feature vector for each word is generated
+
+	# example on how to run vocabulary extractor, creates Wordsplit.txt (possible split-points, 2-way only) and feature.txt (feature vectors for split points)
+    > python vocab2feature.py <input> <output>
 
 ## Morpheme Classifier
 
