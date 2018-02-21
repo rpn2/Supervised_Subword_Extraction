@@ -4,7 +4,15 @@ TODO
 
 ## Vocabulary Extractor
 
-Given a corpous of data it generates vocabulary list that will be used by feature extractor.
+Given a corpous of data it generates vocabulary list that will be used by feature extractor. We are using NLTK data 
+to remove the stop words. Before running the program you will need to download NLTK stopwords collection.
+
+    > python
+    > import nltk
+    # below will open up NLTK downloader window, using the UI download stopwords Corpora
+    > nltk.download() 
+
+Once all dependencies are installed you can run the app using the following
 
     # example on how to run vocabulary extractor
     > python vocabularyExtractor.py <input> <output>
