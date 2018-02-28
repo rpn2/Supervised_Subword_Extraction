@@ -3,70 +3,92 @@
 
 import sys
 
+
 class Vocab2Feature():
 
-    def __init__(self,vocabdata,featureout,methodid = 1):
-        self.vocab =  vocabdata;
-        self.featureout = featureout 
-        self.mid = methodid
-        #Key is word, value is a list. First element of list is "list of lists" for every character. Secind element is count of this word
-        self.worddict = {}
 
-    #Read the vocabulary file and populate the data worddict 
-    def ParseInput(self):
-        with open(self.vocab, 'r') as source_data:
+    def __init__(self,vocabulary_data,feature_output,num_features = 4):
+
+        self.vocabulary_data =  vocabulary_data
+        self.feature_output = feature_output 
+        self.num_features = num_features                                    
+        self.worddict = {}  #Key is word, value is a count of word
+        self.featuredict = {}  #key is word, value is list of lists (fetaure vector for each character)
+
+
+    
+    #Parse Input file and store as dictionary
+
+    def parse_input(self):
+
+        with open(self.vocabulary_data, 'r') as source_data:
             for line in source_data:
-                wordtemp = line.split(":")
-                word = ''.join(wordtemp[0])
-                wordsplits = [[word[:i],word[i:]] for i in range(1,len(word))]
-                #Append the word itself to splits, possible cause : entire word is a morpheme
-                tmplist = []
-                tmplist.append(word)
-                wordsplits.append(tmplist)
-                if word not in self.worddict: 
-                    wordvallist = []
-                    wordvallist.append(wordsplits)
-                    wordvallist.append(int(wordtemp[1]))
-                    self.worddict[word] = wordvallist
+                wordtemp = line.split(":")  
+                self.worddict[wordtemp[0]] = int(wordtemp[1])
 
-    #Helper function 
-    def CheckOutput(self):
+        self.generate_template()
+
+    #Generate Feature Vector template
+
+    def generate_template(self):
+
+        for word in self.worddict.keys():
+            chars_word = list(word)
+            char_list = []
+            for each_char in chars_word:
+                char_vector = [None] * self.num_features
+                char_list.append(char_vector)
+            self.featuredict[word] = char_list
+
+    def write_template(self):
+
+        result_file = open(self.feature_output, 'w')
+        for wordkey,wordval in self.featuredict.items():
+            result_file.write('{0}:{1}\n'.format(wordkey,wordval))
+        result_file.close()
+
+    #Populate global character count as dummy fetaure, index is location in feature vector
+
+    def dummy_charcount(self, index):
+
+        char_count = {}
+
+        for word, count in self.worddict.items():
+            chars_word = list(word)
+            for each_char in chars_word:
+                char_count[each_char] = char_count.get(each_char, 0) + count
+
+        for word, value in self.featuredict.items():
+            chars_word = list(word)
+            char_list = []
+            for charindex in range(len(chars_word)):
+                char_vector = value[charindex]
+                char_vector[index] = char_count[chars_word[charindex]]
+                char_list.append(char_vector)
+
+            self.featuredict[word] = char_list
+
+        result_file = open("data/dummyfeature.txt", 'w')
+        for wordkey,wordval in self.featuredict.items():
+            result_file.write('{0}:{1}\n'.format(wordkey,wordval))
+
+        result_file.close()
+
+
+    #Helper functions
+
+    def check_worddict(self):
+
         for key, val in self.worddict.items():
-            print(key,val[0], val[1])
+            print(key,val)
 
+    def check_featuredict(self):
 
-    #Wrapper for generating multiple feature sets
-    def ChooseFeature(self):
-        if self.mid == 1:
-            self.DummyFeature()
+        for key, val in self.featuredict.items():
+            print(key,val)
+   
 
-    #First-cut dummy feature
-    def DummyFeature(self):
-        #Key is possible subword, val is count or occurence of each subword in the vocablist
-        subworddict = {}
-        result_file = open("data/WordSplit.txt", 'w')
-        for wordkey,wordval in self.worddict.items(): 
-            result_file.write('{0}:{1}\n'.format(wordkey,wordval[0]))
-            for subwordlist in wordval[0]:                 
-                for subsplit in subwordlist:                    
-                    subworddict[subsplit] = subworddict.get(subsplit, 0) + wordval[1]
-
-        
-        result_file.close()
-
-        result_file = open(self.featureout, 'w')
-        for wordkey,wordval in self.worddict.items():
-            flist = []
-            for subwordlist in wordval[0]: 
-                flstinner = []
-                for subsplit in subwordlist:                    
-                    flstinner.append(subworddict[subsplit])
-                flist.append(flstinner)
-
-            
-            result_file.write('{0}:{1}\n'.format(wordkey,flist))
-
-        result_file.close()
+    
         
 
         
@@ -74,6 +96,7 @@ class Vocab2Feature():
 
 
 if __name__ == '__main__':
+
     if len(sys.argv) == 3:
         vocabulary_data = sys.argv[1]
         feature_output = sys.argv[2]
@@ -82,8 +105,9 @@ if __name__ == '__main__':
         feature_output = 'data/feature.txt'
 
     v2f = Vocab2Feature(vocabulary_data,feature_output)
-    v2f.ParseInput()    
-    v2f.ChooseFeature()
-
-
+    v2f.parse_input() 
+    v2f.write_template()
+    v2f.dummy_charcount(2)
     
+
+
