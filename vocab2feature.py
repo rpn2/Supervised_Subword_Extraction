@@ -15,21 +15,16 @@ class Vocab2Feature():
         self.worddict = {}  #Key is word, value is a count of word
         self.featuredict = {}  #key is word, value is list of lists (fetaure vector for each character)
 
-
-    
     #Parse Input file and store as dictionary
-
     def parse_input(self):
 
         with open(self.vocabulary_data, 'r') as source_data:
             for line in source_data:
                 wordtemp = line.split(":")  
                 self.worddict[wordtemp[0]] = int(wordtemp[1])
-
         self.generate_template()
 
     #Generate Feature Vector template
-
     def generate_template(self):
 
         for word in self.worddict.keys():
@@ -42,17 +37,14 @@ class Vocab2Feature():
 
     def write_template(self):
 
-        result_file = open(self.feature_output, 'w')
-        for wordkey,wordval in self.featuredict.items():
-            result_file.write('{0}:{1}\n'.format(wordkey,wordval))
-        result_file.close()
+        fp = open(self.feature_output, 'w')
+        fp.write( str(self.featuredict) )
+        fp.close()
 
     #Populate global character count as dummy fetaure, index is location in feature vector
-
     def dummy_charcount(self, index):
 
         char_count = {}
-
         for word, count in self.worddict.items():
             chars_word = list(word)
             for each_char in chars_word:
@@ -68,15 +60,11 @@ class Vocab2Feature():
 
             self.featuredict[word] = char_list
 
-        result_file = open("data/dummyfeature.txt", 'w')
-        for wordkey,wordval in self.featuredict.items():
-            result_file.write('{0}:{1}\n'.format(wordkey,wordval))
-
-        result_file.close()
-
+        fp = open("data/dummyfeature.txt", 'w')
+        fp.write( str(self.featuredict) )
+        fp.close()
 
     #Helper functions
-
     def check_worddict(self):
 
         for key, val in self.worddict.items():
@@ -86,13 +74,6 @@ class Vocab2Feature():
 
         for key, val in self.featuredict.items():
             print(key,val)
-   
-
-    
-        
-
-        
-
 
 
 if __name__ == '__main__':
@@ -107,7 +88,10 @@ if __name__ == '__main__':
     v2f = Vocab2Feature(vocabulary_data,feature_output)
     v2f.parse_input() 
     v2f.write_template()
+    v2f.dummy_charcount(0)
+    v2f.dummy_charcount(1)
     v2f.dummy_charcount(2)
+    v2f.dummy_charcount(3)
     
 
 
