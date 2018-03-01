@@ -28,7 +28,7 @@ Given a vocabulary list, feature vector for each word is generated
 
 Given a set of feature vectors, train the classifier model, currently sample predict is available
 
-	# example on how to run vocabulary extractor, creates Wordsplit.txt (possible split-points, 2-way only) and feature.txt (feature vectors for split points)
+	# example on how to run classifier
     > python randomforest.py 
 
 TODO
