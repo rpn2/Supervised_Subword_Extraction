@@ -10,12 +10,17 @@ import prepareData
 
 class RandomForest:
 
-    def __init__(self, trfeat, trlabel, testfeat, num_trees = 20):
+    def __init__(self, totalfeat, totallabel, num_trees = 20):
 
-        self.trfeat = trfeat
-        self.trlabel = trlabel
+        self.tfeat = totalfeat
+        self.tlabel = totallabel
         self.num_trees = num_trees
-        self.testfeat = testfeat
+
+    #Split into test and train: TODO
+    def test_train(self): 
+        
+
+        
 
     #Combine vectors of all characters in all words to form feature vector set
     def prepare_vectors(self):
@@ -23,9 +28,9 @@ class RandomForest:
         totalfeatures = []
         totallabels = []
         
-        for word, vallist in self.trfeat.items(): 
+        for word, vallist in self.tfeat.items(): 
 
-            labellist = self.trlabel[word]    
+            labellist = self.tlabel[word]    
             tmplist = [labellist[i] for i in range(1,len(labellist),2)] 
             if len(tmplist) != len(list(word)):
                 #print(word,tmplist)
@@ -37,6 +42,8 @@ class RandomForest:
 
         self.featurevector = np.array(totalfeatures)               
         self.labels = np.array(totallabels)
+    
+  
     
     #Fit a random forest model    
     def model_training(self):
@@ -64,20 +71,23 @@ if __name__ == '__main__':
         feature_file = sys.argv[1]
         label_file = sys.argv[2]
     else:
-        feature_file = 'data/dummyfeature.txt'
-        label_file = 'data/labelfile.txt'
+        feature_file = 'data/labelledfeatures.txt'
+        label_file = 'data/labelsdict.txt'
     
     with open(feature_file, 'r') as fp:
         contents = fp.read()
         featuredict= ast.literal_eval(contents)
 
-    pd = prepareData.prepareData(featuredict,label_file)
-    pd.separate_training()
+    with open(label_file, 'r') as fp1:
+        contents = fp1.read()
+        labeldict= ast.literal_eval(contents)
 
-    rfc = RandomForest(pd.trfeat,pd.trlabels,pd.testfeat)
-    rfc.prepare_vectors()
-    rfc.model_training()
-    rfc.model_predict("planning")
+    
+    rfc = RandomForest(featuredict,labeldict)
+    rfc.test_train()
+    #rfc.prepare_vectors()
+    #rfc.model_training()
+    #rfc.model_predict("planning")
     
     
   

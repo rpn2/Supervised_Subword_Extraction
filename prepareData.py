@@ -13,37 +13,37 @@ class prepareData():
 
         self.feature_dict = feature_dict
         self.labelfile   = label_file
-        self.trfeat = {}
-        self.testfeat = {}
-        self.trlabels = {}
+        self.feat = {}        
+        self.labels = {}
+
 
     def separate_training(self):
 
-        result_file = open("data/trainingfeature.txt", 'w')
+        result_feature = open("data/labelledfeatures.txt", 'w')
+        result_label = open("data/labelsdict.txt", 'w')
+
         with open(self.labelfile, 'r') as source_data:
             for line in source_data:
                 wordtemp = line.split(":")
                 val = self.feature_dict[wordtemp[0]]
-                self.trfeat[wordtemp[0]] = val
-                result_file.write('{0}:{1}'.format(wordtemp[0],val))
+                self.feat[wordtemp[0]] = val
+                #result_file.write('{0}:{1}'.format(wordtemp[0],val))
                 templst = wordtemp[1].split(",")
-                self.trlabels[wordtemp[0]] = [int(i) for i in templst]
+                self.labels[wordtemp[0]] = [int(i) for i in templst]
 
-        result_file.close()
+       
+        result_feature.write(str(self.feat))
+        result_label.write(str(self.labels))
 
-        for word,val in self.feature_dict.items():
-            if word not in self.trfeat:
-                self.testfeat[word] = val
+        result_feature.close()
+        result_label.close()
 
-    def debuglabels(self):
 
-        for key, val in self.trlabels.items():
-            print(key,val)
+    
 
-    def debug(self):
+        
 
-        for key, val in self.trfeat.items():
-            print(key,val)  
+   
 
 
 if __name__ == '__main__':
@@ -55,7 +55,7 @@ if __name__ == '__main__':
         
     pd = prepareData(featuredict,label_file)
     pd.separate_training()
-    pd.debug()
+    
     
 
 
