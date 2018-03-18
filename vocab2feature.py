@@ -4,27 +4,26 @@
 import sys
 
 
-class Vocab2Feature():
+class Vocab2Feature:
 
+    def __init__(self, vocabulary_data, feature_output, num_features=4):
 
-    def __init__(self,vocabulary_data,feature_output,num_features = 4):
+        self.vocabulary_data = vocabulary_data
+        self.feature_output = feature_output
+        self.num_features = num_features
+        self.worddict = {}  # Key is word, value is a count of word
+        self.featuredict = {}  # key is word, value is list of lists (fetaure vector for each character)
 
-        self.vocabulary_data =  vocabulary_data
-        self.feature_output = feature_output 
-        self.num_features = num_features                                    
-        self.worddict = {}  #Key is word, value is a count of word
-        self.featuredict = {}  #key is word, value is list of lists (fetaure vector for each character)
-
-    #Parse Input file and store as dictionary
+    # Parse Input file and store as dictionary
     def parse_input(self):
 
         with open(self.vocabulary_data, 'r') as source_data:
             for line in source_data:
-                wordtemp = line.split(":")  
+                wordtemp = line.split(":")
                 self.worddict[wordtemp[0]] = int(wordtemp[1])
         self.generate_template()
 
-    #Generate Feature Vector template
+    # Generate Feature Vector template
     def generate_template(self):
 
         for word in self.worddict.keys():
@@ -41,7 +40,7 @@ class Vocab2Feature():
         fp.write( str(self.featuredict) )
         fp.close()
 
-    #Populate global character count as dummy fetaure, index is location in feature vector
+    # Populate global character count as dummy fetaure, index is location in feature vector
     def dummy_charcount(self, index):
 
         char_count = {}
@@ -64,7 +63,7 @@ class Vocab2Feature():
         fp.write( str(self.featuredict) )
         fp.close()
 
-    #Helper functions
+    # Helper functions
     def check_worddict(self):
 
         for key, val in self.worddict.items():
@@ -86,12 +85,12 @@ if __name__ == '__main__':
         feature_output = 'data/feature.txt'
 
     v2f = Vocab2Feature(vocabulary_data,feature_output)
-    v2f.parse_input() 
+    v2f.parse_input()
     v2f.write_template()
     v2f.dummy_charcount(0)
     v2f.dummy_charcount(1)
     v2f.dummy_charcount(2)
     v2f.dummy_charcount(3)
-    
+
 
 
