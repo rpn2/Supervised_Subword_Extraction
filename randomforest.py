@@ -97,7 +97,7 @@ class RandomForest:
                 correctres = correctres + 1
 
             #Debug
-            print(word,labellist,index_maxprob,predprob[index_maxprob])
+            print(word, labellist, index_maxprob, predprob[index_maxprob])
 
         # Accuracy calculations to follow
         print(correctres)
