@@ -14,7 +14,7 @@ if __name__ == '__main__':
         vocabulary_output = sys.argv[2]
     else:
         corpus_data = 'data/mod.txt'
-        vocabulary_output = 'data/new_vocabulary.txt'
+        vocabulary_output = 'data/final_vocabulary.txt'
 
     print '{0} starting vocabulary extraction [SOURCE: {1}, OUTPUT: {2}]'.format(datetime.now(), corpus_data, vocabulary_output)
 
@@ -22,9 +22,11 @@ if __name__ == '__main__':
     result = defaultdict(int)
     with open(corpus_data, 'r') as source_data:
         for title in source_data:
-            for word in re.split(r' |,|\.', title, maxsplit=0):
-                normalized_word = word.strip().lower()
-                if normalized_word and normalized_word not in english_stopwords:
+            # split sentences into words
+            for word in re.split(r'[ ,.]', title, maxsplit=0):
+                # replace anything that is not alphanumeric or hyphen in the resulting words
+                normalized_word = re.sub('[^0-9a-z\-]+', '', word.lower()).replace('-', "_")
+                if normalized_word and normalized_word not in english_stopwords and '_' != normalized_word:
                     result[normalized_word] += 1
 
     result_file = open(vocabulary_output, 'w')
