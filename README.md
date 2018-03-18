@@ -19,7 +19,8 @@ Once all dependencies are installed you can run the app using the following
 
 ## Feature Extractor
 
-Given a vocabulary list, feature vector for each word is generated
+Given a vocabulary list, feature vector for each word is generated. We are using datrie library for generating prefix trees.
+You may need to install the lib prior to running the feature extractor.
 
 	# example on how to run vocabulary extractor, creates feature.txt [feature vectors]
     > python vocab2feature.py <input> <output>

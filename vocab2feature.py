@@ -18,8 +18,9 @@ class Vocab2Feature:
         self.word_counts = {}  # Key is word, value is a count of word
         self.featuredict = {}  # key is word, value is list of lists (fetaure vector for each character)
 
-        self.trie = BaseTrie(string.ascii_lowercase)
-        self.reverse_trie = BaseTrie(string.ascii_lowercase)
+        supported_characters = string.ascii_lowercase + string.digits + '_'
+        self.trie = BaseTrie(supported_characters)
+        self.reverse_trie = BaseTrie(supported_characters)
 
     # Parse Input file and store as dictionary
     def parse_input(self):
@@ -55,7 +56,7 @@ class Vocab2Feature:
             self.featuredict[word] = char_list
 
     def write_template(self):
-        fp = open(self.feature_output, 'w')
+        fp = codecs.open(self.feature_output, 'w', 'utf8')
         fp.write(str(self.featuredict))
         fp.close()
 
