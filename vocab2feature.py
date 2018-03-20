@@ -4,7 +4,7 @@
 import codecs
 import string
 import sys
-
+import math
 from datrie import BaseTrie
 
 
@@ -16,6 +16,8 @@ class Vocab2Feature:
         self.feature_output = feature_output
         self.num_features = num_features
         self.word_counts = {}  # Key is word, value is a count of word
+        self.prefix_entropy = {}  # Key is prefix, value is entropy
+        self.reverse_prefix_entropy = {}  # Key is prefix, value is entropy
         self.featuredict = {}  # key is word, value is list of lists (fetaure vector for each character)
 
         supported_characters = string.ascii_lowercase + string.digits + '_'
@@ -94,6 +96,59 @@ class Vocab2Feature:
         for key, val in self.featuredict.items():
             print(key, val)
 
+    def calculate_entropy(self):
+
+        for word in self.word_counts.keys():            
+            prefix = u''            
+            for character in word:
+                prefix += character
+                if prefix not in self.prefix_entropy:
+                    slprune = [suffix for suffix in self.trie.suffixes(prefix) if len(suffix) == 1]
+                    slval = []
+                    if len(slprune):
+                        for sl in slprune:
+                            tempprefix = prefix + sl
+                            slval.append(self.trie[tempprefix])
+                        entropy = 0
+                        sumval = sum(slval)
+                        for val in slval:
+                            entropy =  entropy + (-val/sumval)* math.log(val/sumval, 2)
+                        self.prefix_entropy[prefix] = entropy
+                    else:
+                        self.prefix_entropy[prefix] = 0
+
+            reverse_word=word[::-1]
+            prefix = u''            
+            for character in reverse_word:
+                prefix += character
+                if prefix not in self.reverse_prefix_entropy:
+                    slprune = [suffix for suffix in self.reverse_trie.suffixes(prefix) if len(suffix) == 1]
+                    slval = []
+                    if len(slprune):
+                        for sl in slprune:
+                            tempprefix = prefix + sl
+                            slval.append(self.reverse_trie[tempprefix])
+                        entropy = 0
+                        sumval = sum(slval)
+                        for val in slval:
+                            entropy =  entropy + (-val/sumval)* math.log(val/sumval, 2)
+                        self.reverse_prefix_entropy[prefix] = entropy
+                    else:
+                        self.reverse_prefix_entropy[prefix] = 0
+
+    def check_entropy(self):
+        print(len(self.prefix_entropy))
+        fp = codecs.open("data/debugentropy", 'w', 'utf8')
+        fp.write(str(self.prefix_entropy))
+        fp.close()
+
+        print(len(self.reverse_prefix_entropy))
+        fp = codecs.open("data/reversedebugentropy", 'w', 'utf8')
+        fp.write(str(self.reverse_prefix_entropy))
+        fp.close()
+
+
+
 
 if __name__ == '__main__':
 
@@ -106,11 +161,13 @@ if __name__ == '__main__':
 
     v2f = Vocab2Feature(input_file, output_file)
     v2f.parse_input()
-    v2f.write_template()
+    v2f.calculate_entropy()
+    #v2f.check_entropy()
+    '''v2f.write_template()
     v2f.dummy_charcount(0)
     v2f.dummy_charcount(1)
     v2f.dummy_charcount(2)
-    v2f.dummy_charcount(3)
+    v2f.dummy_charcount(3)'''
 
 
 
