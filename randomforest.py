@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 import random
 import math
-
+import codecs
 
 class RandomForest:
 
@@ -126,11 +126,11 @@ if __name__ == '__main__':
         feature_file = 'data/labelledfeatures.txt'
         label_file = 'data/labelsdict.txt'
 
-    with open(feature_file, 'r') as fp:
+    with codecs.open(feature_file, 'r', 'utf8') as fp:
         contents = fp.read()
         featuredict = ast.literal_eval(contents)
 
-    with open(label_file, 'r') as fp1:
+    with codecs.open(label_file, 'r', 'utf8') as fp1:
         contents = fp1.read()
         labeldict = ast.literal_eval(contents)
 
