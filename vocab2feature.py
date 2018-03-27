@@ -6,6 +6,7 @@ import string
 import sys
 import math
 from datrie import BaseTrie, Trie
+import engrams
 
 
 class Vocab2Feature:
@@ -171,6 +172,13 @@ class Vocab2Feature:
                 char_vector[9]   = self.reverse_trie.get(u''+ rev_beforesp,0)
                 char_vector[10]  = self.reverse_trie.get(u''+ rev_currsp)
                 char_vector[11]  = self.reverse_trie.get(u''+ rev_aftersp,0)
+
+                #populate engram, bigrams, trigrams
+                char_vector[13] = engrams.create_engram(word, charcount)
+                char_vector[14] = engrams.create_forward_bigram(word, charcount)
+                char_vector[15] = engrams.create_backward_bigram(word, charcount)
+                char_vector[16] = engrams.create_forward_trigram(word, charcount)
+                char_vector[17] = engrams.create_backward_trigram(word, charcount)
                 
                 char_list[charcount] = char_vector
                 revcharcount = revcharcount - 1
