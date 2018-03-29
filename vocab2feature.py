@@ -90,7 +90,8 @@ class Vocab2Feature:
 
     def calculate_entropy(self):
 
-        for word in self.word_counts.keys():            
+        for word in self.word_counts.keys(): 
+            #word = 'learning'
             prefix = u''            
             for character in word:
                 prefix += character
@@ -102,9 +103,9 @@ class Vocab2Feature:
                             tempprefix = prefix + sl
                             slval.append(self.trie[tempprefix])
                         entropy = 0
-                        sumval = sum(slval)
+                        #sumval = sum(slval)
                         for val in slval:
-                            entropy =  entropy + (-val/sumval)* math.log(val/sumval, 2)
+                            entropy =  entropy + (-val/self.trie[prefix])* math.log(val/self.trie[prefix], 2)
                         self.prefix_entropy[prefix] = entropy
                     else:
                         #This needs to be infinity, could RF handle INF 
@@ -122,9 +123,9 @@ class Vocab2Feature:
                             tempprefix = prefix + sl
                             slval.append(self.reverse_trie[tempprefix])
                         entropy = 0
-                        sumval = sum(slval)
+                        #sumval = sum(slval)
                         for val in slval:
-                            entropy =  entropy + (-val/sumval)* math.log(val/sumval, 2)
+                            entropy =  entropy + (-val/self.reverse_trie[prefix])* math.log(val/self.reverse_trie[prefix], 2)
                         self.reverse_prefix_entropy[prefix] = entropy
                     else:
                         #This needs to be infinity, could RF handle INF
@@ -224,9 +225,9 @@ if __name__ == '__main__':
     v2f = Vocab2Feature(input_file, output_file)
     v2f.parse_input()
     v2f.calculate_entropy()
-    v2f.feature_entropy_subword()
-    v2f.check_featuredict()
-    #v2f.check_entropy()
+    #v2f.feature_entropy_subword()
+    #v2f.check_featuredict()
+    v2f.check_entropy()
     '''v2f.write_template()
     v2f.dummy_charcount(0)
     v2f.dummy_charcount(1)
