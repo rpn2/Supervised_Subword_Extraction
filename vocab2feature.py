@@ -106,7 +106,7 @@ class Vocab2Feature:
                         #sumval = sum(slval)
                         for val in slval:
                             entropy =  entropy + (-val/self.trie[prefix])* math.log(val/self.trie[prefix], 2)
-                        self.prefix_entropy[prefix] = entropy
+                        self.prefix_entropy[prefix] = round(entropy,4)
                     else:
                         #This needs to be infinity, could RF handle INF 
                         self.prefix_entropy[prefix] = 0
@@ -126,7 +126,7 @@ class Vocab2Feature:
                         #sumval = sum(slval)
                         for val in slval:
                             entropy =  entropy + (-val/self.reverse_trie[prefix])* math.log(val/self.reverse_trie[prefix], 2)
-                        self.reverse_prefix_entropy[prefix] = entropy
+                        self.reverse_prefix_entropy[prefix] = round(entropy,4)
                     else:
                         #This needs to be infinity, could RF handle INF
                         self.reverse_prefix_entropy[prefix] = 0
