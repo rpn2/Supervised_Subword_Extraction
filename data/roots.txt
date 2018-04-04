@@ -1,0 +1,3167 @@
+abyss	an a
+achromatic	an a
+anhydrous	an a
+afire	a
+ashore	a
+aside	a
+abduct	 ab  away  off a  abs
+from
+abnormal	 ab  away  off a  abs
+from
+absent	 ab  away  off a  abs
+from
+aversion	 ab  away  off a  abs
+from
+abbreviate	 ab  away  off a  abs
+from
+accelerate	ac ad a
+accessible	ac ad a
+admittance	ac ad a
+acrobat	acro
+acronym	acro
+acrophobia	acro
+activity	act
+react	act
+interaction	act
+aerate	aer aero
+aerial	aer aero
+aerospace	aer aero
+agriculture	agri agro agr
+agrarian	agri agro agr
+neuralgia	alg algo
+analgesic	alg algo
+nostalgia	alg algo
+ambidextrous	ambi  amphi
+ambiguous	ambi  amphi
+ambivalence	ambi  amphi
+amble	ambul
+ambulant	ambul
+ambulance	ambul
+amiable	amio ami
+amity	amio ami
+amorous	amio ami
+analysis	ana
+anatomy	ana
+anachronism	ana
+androgynous	andr andro
+android	andr andro
+misandry	andr andro
+animal	anim
+animate	anim
+equanimity	anim
+anniversary	annenn ann
+annual	annenn ann
+millennium	annenn ann
+antecede	ante
+antemeridian	ante
+anteroom	ante
+chrysanthemum	anth antho
+anthology	anth antho
+anthozoan	anth antho
+anthropology	anthropo anthrop
+anthropomorphism	anthropo anthrop
+philanthropy	anthropo anthrop
+antibody	anti
+antiseptic	anti
+antisocial	anti
+aphorism	 apho apo
+apology	 apho apo
+aquarium	aqua aqu
+aquatic	aqua aqu
+aqueduct	aqua aqu
+arborist	arbor
+arbor	arbor
+arborous	arbor
+archbishop	arch archi
+chief  most important  rule
+archenemy	arch archi
+chief  most important  rule
+matriarch	arch archi
+chief  most important  rule
+monarch	arch archi
+chief  most important  rule
+archaeology	arch archi archa
+archaic	arch archi archa
+archive	arch archi archa
+arthroscope	arthro arthr
+arthritis	arthro arthr
+arthropod	arthro arthr
+artifact	art
+artisan	art
+artist	art
+astronaut	astro aster
+astronomer	astro aster
+asterisk	astro aster
+audible	audio audi aud
+audience	audio audi aud
+audiovisual	audio audi aud
+autocrat	auto
+autograph	auto
+automatic	auto
+aviary	avi avia
+aviatrix	avi avia
+aviation	avi avia
+baric	baro bar
+milliard	baro bar
+baryon	baro bar
+bellicose	bell belli
+belligerent	bell belli
+rebel	bell belli
+benefactor	bene
+beneficial	bene
+benevolent	bene
+biannual	bin bi
+binoculars	bin bi
+bilateral	bin bi
+bibliography	bibli biblio
+bibliomania	bibli biblio
+bibliophile	bibli biblio
+biography	bio
+biology	bio
+biosphere	bio
+blastula	blast blasto
+fibroblast	blast blasto
+blastoderm	blast blasto
+bursar	burs
+bursary	burs
+disburse	burs
+calcite	calc
+calcium	calc
+calcification	calc
+candid	cand
+candle	cand
+incandescent	cand
+intercept	 ceive capt  cept
+perceive	 ceive capt  cept
+captivating	 ceive capt  cept
+cardiac	cardio cardi
+cardiogenic	cardio cardi
+cardiologist	cardio cardi
+carnivorous	carn carni
+carnal	carn carni
+incarnate	carn carni
+cataclysm	cata
+catastrophe	cata
+cauterize	caust caut
+caustic	caust caut
+holocaust	caust caut
+exceed ceed cede cess
+recede ceed cede cess
+accessible ceed cede cess
+accelerate	celer
+decelerate	celer
+centennial	cent centi
+centimeter	cent centi
+century	cent centi
+egocentric	centr centri centro
+eccentric	centr centri centro
+centrifugal	centr centri centro
+encephalitis	cephal cephalo
+cephalic	cephal cephalo
+cephalopod	cephal cephalo
+cerebral	cerebr cerebro
+cerebrate	cerebr cerebro
+cerebrospinal	cerebr cerebro
+ascertain	cert
+certain	cert
+certify	cert
+achromatic	chromo chromat  chros chromo chrom
+chromium	chromo chromat  chros chromo chrom
+chronic	chron chrono
+chronological	chron chrono
+chrysanthemum	chryso chrys
+chrysolite	chryso chrys
+homicide	 cise cide
+incisor	 cise cide
+insecticide	 cise cide
+circumnavigate circle circum
+circumscribe circle circum
+circumspect circle circum
+clamor	 clam claim
+exclaim	 clam claim
+proclamation	 clam claim
+clarification	clar
+clarify	clar
+declare	clar
+conclusion	clud  clus
+exclusion	clud  clus
+seclude	clud  clus  
+inclination	cline
+incline	cline
+recline	cline
+coauthor	co
+coeducation	co
+cohousing	co
+Collaborate	col
+collision	col
+colloquial	col
+commemorate	com
+composition	com
+commune	com
+cognition	cogn cogni
+incognito	cogn cogni
+recognize	cogn cogni
+concur	con
+contemporary	con
+convention	con
+contradict	contrao contra
+corporation	corp corpo
+corpse	corp corpo
+corporal	corp corpo
+cosmonaut	cosm cosmo
+cosmos	cosm cosmo
+microcosm	cosm cosmo
+counteract	counter
+countermand	counter
+counteroffensive	counter
+craniology	cranio
+cranium	cranio
+cranial	cranio
+credence	cred
+credulous	cred
+incredible	cred
+crucifix	cruc
+excruciating	cruc
+cryptic	crypto
+cryptography	crypto
+encrypt	crypto
+accumulate	cumul
+cumulative	cumul
+concurrent	 curs curr
+current	 curs curr
+cursive	 curs curr
+bicycle	cycl
+cycle	cycl
+cyclone	cycl
+decelerate	de
+dethrone	de
+debug	de
+decade	dec  
+deka deca
+decathlon	dec  
+deka deca
+December	dec  
+deka deca
+deciliter	deci
+decimate	deci
+decibel	deci
+democracy	demo dem
+demographic	demo dem
+epidemic	demo dem
+demitasse	demi
+demimonde	demi
+philodendron	dendri dendr dendro
+dendrochronology	dendri dendr dendro
+dendriform	dendri dendr dendro
+dental	 dont dent
+dentist	 dont dent
+dentures	 dont dent
+dermatologist	derm derma
+pachyderm	derm derma
+dermatitis	derm derma
+dichromatic	di diplo
+diploma	di diplo
+dilemma	di diplo
+digression	di dis
+disappear	di dis
+dissect	di dis
+diabetes	dia
+diagnosis	dia
+dialog	dia
+contradict	dict
+prediction	dict
+dictate	dict
+dominate	domin
+domineering	domin
+predominate	domin
+donation	donat don
+donor	donat don
+pardon	donat don
+conduct	duct duc
+educate	duct duc
+deduction	duct duc
+duplicate	du duo
+duet	du duo
+duo	du duo
+durable	dur
+duration	dur
+enduring	dur
+dynamo	dyna dyn dynam
+dynamic	dyna dyn dynam
+dynamite	dyna dyn dynam
+dyspepsia	dys
+dystopia	dys
+dyslexia	dys
+eloquent	e
+emissary	e
+eject	e
+egoistic	ego
+egomania	ego
+empathy	em  en
+empower	em  en
+engorge	em  en
+endotherm	endo
+endocrine	endo
+endogamy	endo
+bicentennial	 anni enni enn
+centennial	 anni enni enn
+perennial	 anni enni enn
+envision	 in en
+enclose	 in en
+inwards	 in en
+epidemic	epi ep
+epilogue	epi ep
+epicenter	epi ep
+equidistant	equ equi
+equanimity	equ equi
+equation	equ equi
+ergonomics	ergo erg
+energy	ergo erg
+energetics	ergo erg
+esthetician	esthaesth esth
+aesthetic	esthaesth esth
+kinesthesia	esthaesth esth
+ethnic	ethno
+ethnocentric	ethno
+ethnology	ethno
+euphemism	eu
+euphonious	eu
+euphoria	eu
+excavate	ex
+exhale	ex
+extract	ex
+extraordinary	extra  extro
+extraterrestrial	extra  extro
+extrovert	extra  extro
+artifact	fac fact
+factory	fac fact
+malefact	fac fact
+confer	fer
+ferry	fer
+transfer	fer
+confide	fid
+fiduciary	fid
+deflect	flect
+inflection	flect
+flexible	flect
+florist	 
+fleur flora flor
+floral	 
+fleur flora flor
+flora	 
+fleur flora flor
+forsaken	for
+forgiven	for
+forebear	fore
+forebode	fore
+forecast	fore
+conformity	form
+formation	form
+reformatory	form
+fracture	 frag fract
+fragile	 frag fract
+fragment	 frag fract
+fugitive	fug
+refuge	fug
+refugee	fug
+defunct	funct
+function	funct
+malfunction	funct
+confusion	fus
+fuse	fus
+infuse	fus
+gastric	gastro gastr
+gastronomy	gastro gastr
+gastritis	gastro gastr
+genealogy	gen
+genesis gene gen geno
+generation	gen
+genesis gene gen geno
+genetic	gen
+genesis gene gen geno
+geography	geo
+geology	geo
+geoponics	geo
+geriatrics	ger
+gerontocracy	ger
+gerontology	ger
+gigabyte	giga
+gigahertz	giga
+gigawatt	giga
+decagon	gon
+diagonal	gon
+octagon	gon
+diagram	gram
+grammar	gram
+telegram	gram
+granary	gran
+granola	gran
+granule	gran
+Graphology	graph graphy
+autograph	graph graphy
+seismograph	graph graphy
+gratify	grat
+grateful	grat
+gratuity	grat
+gynecology	gyno gyne gyn
+gynephobia	gyno gyne gyn
+gynecoid	gyno gyne gyn
+digression	 grade gress  gradi  grad
+progress	 grade gress  gradi  grad
+gradual	 grade gress  gradi  grad
+hectoliter	 hecat hecto hect
+hectare	 hecat hecto hect
+hectometer	 hecat hecto hect
+helicopter	helic helico
+helix	helic helico
+helicon	helic helico
+heliotropism	helio heli
+heliograph	helio heli
+helianthus	helio heli
+hemicycle	hemi
+hemisphere	hemi
+hemistich	hemi
+hemorrhage	hemo hema hem
+hemorrhoids	hemo hema hem
+hemoglobin	hemo hema hem
+hepatitis	hepa
+hepatoma	hepa
+hepatotoxic	hepa
+heptagon	hept hepta
+Heptateuch	hept hepta
+heptameter	hept hepta
+herbicide	herbi
+herbivorous	herbi
+herbal	herbi
+heterogeneous	hetero
+heteronyms	hetero
+heterodox	hetero
+hexagon	hex hexa
+hexameter	hex hexa
+hexapod	hex hexa
+histology	histo
+histochemistry	histo
+homogeneous homeo homo
+homonym	homeo homo
+homeopath homeo homo
+hydrate	hydro hydr
+hydrophobia	hydro hydr
+hydroponics	hydro hydr
+hydraulic	hydro hydr
+hygrometer	hygro hygr
+hygrograph	hygro hygr
+hyperactive	hyper
+hypercritical	hyper
+hypertension	hyper
+hypoglycemia	hyp hypo
+hypothermia	hyp hypo
+hypothesis	hyp hypo
+geriatrics	iatro iatr
+pediatrician	iatro iatr
+podiatry	iatro iatr
+icon	icon icono
+iconology	icon icono
+iconoclast	icon icono
+idiomatic	idio
+idiosyncracy	idio
+idiot	idio
+illuminate	 in il
+innovation	 in il
+inspection	 in il
+illegal in  ir  il ig  im
+impossible n  ir  il ig  im
+inappropriate in  ir  il ig  im
+irresponsible in  ir  il ig  im
+image	imag
+imaginative	imag
+imagine	imag
+infrastructure	infra
+infrared	infra
+international	inter
+intersection	inter
+intercept	inter
+intrastate intro intra
+intravenous intro intra
+introvert intro intra
+irredeemable	ir
+irreformable	ir
+irrational	ir
+isobar	iso
+isometric	iso
+isothermal	iso
+eject	ject
+interject	ject
+project	ject
+judgment	jud
+judicial	jud
+judiciary	jud
+conjunction	junct
+disjunction	junct
+junction	junct
+juvenile	juven
+rejuvenate	juven
+kilobyte	kilo
+kilometer	kilo
+kilograms	kilo
+kinetics	kinemat kine kinet
+psychokinesis	kinemat kine kinet
+cinematography	kinemat kine kinet
+collaborate	lab
+elaborate	lab
+laborious	lab
+lactate	lacto lact
+lactose	lacto lact
+lactic	lacto lact
+bilateral	later
+unilateral	later
+leukemia	leuko leuc leuk  leuco
+leukocyte	leuko  leuc leuk  leuco
+leucine	leuko leuc leuk leuco
+lexicology	lex
+alexia	lex
+illegal	lex
+liberate	liber
+libertine	liber
+liberty	liber
+linguist	lingu
+multilingual	lingu
+linguine	lingu
+liposuction	lipo lip
+lipase	lipo lip
+lipoid	lipo lip
+apatite	lite  
+litho  ite lith
+granite	lite  
+litho  ite lith
+monolith	lite litho  ite lith
+dislocate	loc
+location	loc
+relocate	loc
+logic	log logo
+monologue	log logo
+analogy	log logo
+eloquent	loqu  locu
+loquacious	loqu  locu
+elocution	loqu  locu
+elucidate	luc
+lucid	luc
+translucent	luc
+prelude	 lus lud
+illusion	 lus lud
+delude	 lus lud
+illuminate	lumin
+lumen	lumin
+lunar	luna luni lun
+lunarscape	luna luni lun
+lunatic	luna luni lun
+macroevolution	macro
+macromolecule	macro
+macroeconomics	macro
+magnify	magn magni magna
+magnificent	magn magni magna
+magnate	magn magni magna
+malcontent	male mal
+malaria	male mal
+malicious	male mal
+maneuver	mani man manu
+manual	mani man manu
+manuscript	mani man manu
+command	mand
+demand	mand
+mandate	mand
+bibliomania	mania
+egomania	mania
+maniac	mania
+marina	mar mari
+maritime	mar mari
+submarine	mar mari
+aquamarine	mar mari
+maternal matr mater matri
+maternity matr mater matri
+matriarch matr matermatri
+maximal	max
+maximize	max
+maximum	max
+medieval	medi
+medium	medi
+mediocre	medi
+megalopolis	mega
+megaphone	mega
+megastructure	mega
+melancholy	melano melan
+melanoma	melano melan
+melodrama	melano melan
+commemorate	memor memori
+memorial	memor memori
+memory	memor memori
+immerge	merge mers
+submerge	merge mers
+mesoamerica	meso
+meson	meso
+metaphysics	meta
+metamorphosis	meta
+metastasis	meta
+audiometer metr metry meter
+chronometer	metr metry meter
+metric	metr metry meter
+microbe	micro
+microchip	micro
+microscope	micro
+midriff	mid
+midterm	mid
+midway	mid
+immigrant	migr
+migrant	migr
+migration	migr
+millimeter	milli
+millibar	milli
+milliliter	milli
+mini	mini min
+minuscule	mini min
+minutiae	mini min
+misbehave	miso mis
+misprint	miso mis
+misnomer	miso mis
+dismiss	 mit miss
+missile	 mit miss
+emit	 mit miss
+admittance	 mit miss
+immobilize	mob
+mobile	mob
+mobility	mob
+monochromat	mono mon
+monologue	mono mon
+monotheism	mono mon
+motion	 mov mot
+motivate	 mov mot
+promote	 mov mot
+removable	 mov mot
+metamorphosis	morpho morph
+endorphins	morpho morph
+amorphous	morpho morph
+immortal	mort
+mortal	mort
+mortician	mort
+multicolored	multi
+multimedia	multi
+multitasking	multi
+immutable	mut
+mutant	mut
+mutate	mut
+myocardium	my myo
+myasthenia	my myo
+myosin	my myo
+narrate	narr
+narrative	narr
+narrator	narr
+innate	nat
+natal	nat
+natural	nat
+circumnavigate	nav
+naval	nav
+navigate	nav
+necrophil	necr necro
+necrosis	necr necro
+necrology	necr necro
+negate	neg
+negative	neg
+renege	neg
+neoclassic	neo
+neonatal	neo
+nephritis	nephro nephr
+nephrotomy	nephro nephr
+nephron	nephro nephr
+neuralgia	neur neuro
+neurologist	neur neuro
+neurotic	neur neuro
+misnomer	nomin nom
+nominal	nomin nom
+nominate	nomin nom
+nondescript	non
+nonfiction	non
+nonsense	non
+notable	not
+notarize	not
+annotate	not
+announce	noun nunc
+denounce	noun  nunc
+enunciate	noun nunc
+innovate	nov
+novelty	nov
+novice	nov
+renovate	nov
+enumerate	numer
+numerology	numer
+numerous	numer
+object	 op ob
+obscure	 op ob
+opposition	 op ob
+octagon	octa oct octo
+octogenarian	octa oct octo
+octopus	octa oct octo
+binoculars	ocu
+monocula	ocu
+oculist	ocu
+diode	od
+odometer	od
+triode	od
+deodorant	odor 
+malodorous	odor 
+odoriferous	odor 
+omnipotent	omni
+omniscient	omni
+omnivorous	omni
+optic	opt ops op
+optician	opt ops op
+autopsy	opt ops op
+optimal	opt
+optimize	opt
+optimum	opt
+orthodontist	ortho
+orthopedic	ortho
+orthography	ortho
+osteoarthritis	osteo
+osteopathy	osteo
+osteology	osteo
+Outgoing	out
+outdoing	out
+outdoor	out
+overconfident	over
+overstock	over
+overexcited	over
+oxymoron	oxioxy oxi
+oxidize	oxioxy oxi
+paleontology	pale paleo
+paleography	pale paleo
+Paleolithic	pale paleo
+panacea	pan
+panorama	pan
+pantheism	pan
+pandemic	pan
+parasite	para
+parallel	para
+paragraph	para
+parachute	para
+parasol	para
+paternal	 
+patri pater  
+patr
+paternity	 
+patri pater  
+patr
+patriarch	 
+patri pater  
+patr
+antipathy	path
+apathy	path
+empathy	path
+pedal	pede pedi ped
+pedestrian	pede pedi ped
+pedicure	pede pedi ped
+compel	pel
+expel	pel
+repel	pel
+pentagon	penta pent
+pentathlon	penta pent
+dyspepsia peps pept
+peptic peps pept
+pepsin	peps pept
+permanent	per
+permeate	per
+persist	per
+perennial	per
+periodontal	peri
+peripheral	peri
+perimeter	peri
+esophagus	phage phag
+anthropophagy	phage phag
+xylophagous	phage phag
+philanthropist	philo phil
+philology	philo phil
+philosophy	philo phil
+bibliophil	philo phil
+cacophony	phono phon phone phony
+microphone	phono phon phone phony
+phonetic	phono phon phone phony
+photogenic	phot photo
+photograph	phot photo
+photon	phot photo
+chlorophyll	phyll phyllo
+phyllotaxis	phyll phyllo
+phyllite	phyll phyllo
+physical	phys
+physician	phys
+physique	phys
+epiphyte	phyt phyte phyto
+hydrophyte	phyt phyte phyto
+neophyte	phyt phyte phyto
+protoplasm	plas plast plasm
+plastic	plas plast plasm
+plaster	plas plast plasm
+applaud	 plos plaud  plod  plaus
+explosion	 plos plaud  plod  plaus
+plausible	 plos plaud  plod  plaus
+pneumonia	pneum pneumo
+pneumatic	pneum pneumo
+dyspnea	pneum pneumo
+podiatrist	pode pod
+podium	pode pod
+tripod	pode pod
+metropolis	poli
+police	poli
+politics	poli
+polychrome	poly
+polyglot	poly
+polygon	poly
+opponent	pon
+postpone	pon
+popular	pop
+population	pop
+populist	pop
+export	port
+portable	port
+porter	port
+deposit	pos
+expose	pos
+position	pos
+posthumous	post
+postpone	post
+postscript	post
+preamble	pre
+prepare	pre
+prediction	pre
+prognosis	pro
+prologue	pro
+prophet	pro
+prototype	proto prot
+proton	proto prot
+protocol	proto prot
+pseudonym	pseud pseudo
+pseudoscience	pseud pseudo
+pseudopregnancy	pseud pseudo
+psyche	psych psycho
+psychic	psych psycho
+psychology	psych psycho
+pugnacious	pugna pugn pung
+repugnant	pugna pugn pung
+pungent	pugna pugn pung
+compulsion	pul
+expulsion	pul
+impulsive	pul
+purge	purg
+purgatory	purg
+expurgate	purg
+computer	put
+dispute	put
+input	put
+pyrotechnics	pyr pyro
+pyrometer	pyr pyro
+pyretic	pyr pyro
+quadrant	quadri quadr quad
+quadrennium	quadri quadr quad
+quadruped	quadri quadr quad
+quarter	quart
+quart	quart
+quartet	quart
+quintett	quint quin
+quintessence	quint quin
+quintuple	quint quin
+eradicate radix radic
+radical	radix radic
+radish	radix radic
+radioactive	radio
+radiologist	radio
+ramification	ram rami
+ramify	ram rami
+ramus	ram rami
+rebound	re
+rewind	re
+reaction	re
+recognize	re
+regent	reg
+regime	reg
+regulate	reg
+retroactive	retro
+retrogress	retro
+retrospect	retro
+rhinoceros	rhino rhin
+rhinoplasty	rhino rhin
+rhinovirus	rhino rhin
+rhododendron	rhod rhodo
+rhodium	rhod rhodo
+rhodopsin	rhod rhodo
+deride	rid
+ridicule	rid
+ridiculous	rid
+diarrhea	rrhoea rrhag rrh rrhea
+hemorrhage	rrhoea rrhag rrh rrhea
+catarrh	rrhoea rrhag rrh rrhea
+ruby	rub
+rubella	rub
+bilirubin	rub
+bankrupt	rupt
+interrupt	rupt
+rupture	rupt
+sane	san
+sanitary	san
+sanitation	san
+ascend	scend
+crescendo	scend
+descend	scend
+conscience	sci
+conscious	sci
+omniscient	sci
+arteriosclerosis	scler sclero
+multiple	scler sclero
+sclerometer	scler sclero
+microscope	scope scopy scop
+periscope	scope scopy scop
+telescope	scope scopy scop
+inscribe script scrib scribe	 
+script scrib
+describe script scrib
+secede	se
+seclude	se
+serum	se
+dissect	sect
+intersection	sect
+bisect	sect
+reside	 sess sed  sid
+sediment	 sess sed  sid
+session	 sess sed  sid
+self-discipline	self
+self-respect	self
+selfish	self
+semiannual	semi
+semicircle	semi
+semiconscious	semi
+semiannual	semi
+September	septi sept
+septet	septi sept
+septuagenarian	septi sept
+conserve	serv
+preserve	serv
+reservation	serv
+sextet	sex
+sexagenarian	sex
+desolate	sol
+solitary	sol
+solo	sol
+solar	sol
+parasol	sol
+solarium	sol
+insomnia	somni somn
+somniloquy	somni somn
+somnolent	somni somn
+consonant	son
+sonorous	son
+supersonic	son
+unison	son
+philosopher	soph
+sophisticated	soph
+sophism	soph
+circumspect spic spect spec
+retrospective spic spect spec
+spectator spic spect spec
+biosphere	sphere
+hemisphere	sphere
+inspire	spir
+transpire	spir
+spirit	spir
+stable	sta
+stagnant	sta
+stationary	sta
+constellation	stell
+interstellar	stell
+stellar	stell
+construct	struct
+destruction	struct
+structure	struct
+infrastructure	struct
+submarine	sub
+submerge	sub
+substandard	sub
+sum	sum
+summation	sum
+summit	sum
+Super	super
+superior	super
+supersonic	super
+symmetry	syn sym sys syl sy
+synergy	syn sym sys syl sy
+synchronize	syn sym sys syl sy
+contact	tact  tang
+tactile	tact  tang
+tangible	tact  tang
+intact	tact  tang
+syntax	taxo tax
+taxonomy	taxo tax
+ataxia	taxo tax
+technology	techno
+technocracy	techno
+technologically	techno
+telephone	tele telo tel
+telescope	tele telo tel
+television	tele telo tel
+telecommuting	tele telo tel
+contemporary	temp tempor
+temporal	temp tempor
+temporary	temp tempor
+continent	ten  tin  tent
+detention	ten  tin  tent
+attrition	ter  trit
+detritus	ter  trit
+trite	ter  trit
+determine	termina term
+terminate	termina term
+exterminate	termina term
+extraterrestrial	terra terr terri
+terrain	terra terr terri
+territory	terra terr terri
+tetrapod	tetra
+tetrarchy	tetra
+tetrose	tetra
+bibliotheca	the
+theme	the
+thesis	the
+monotheism	theo the
+polytheism	theo the
+theology	theo the
+thermal	therm thermo
+thermos	therm thermo
+thermostat	therm thermo
+contortion	tort
+distort	tort
+retort	tort
+detoxification	tox
+toxic	tox
+toxicology	tox
+intoxicated	tox
+attract	tract
+distract	tract
+tractor	tract
+transcontinental	trans
+transfer	trans
+transport	trans
+triangle	tri
+triathlon	tri
+tricycle	tri
+ultrahigh	ultra
+ultramodern	ultra
+ultrasonic	ultra
+unabridged	un
+unfair	un
+unfriendly	un
+unicycle	uni
+unilateral	uni
+unique	uni
+unison	uni
+suburb	urb
+urban	urb
+urbanology	urb
+evacuate	vac
+vacant	vac
+vacation	vac
+circumvent	ven vent
+convention	ven vent
+intervene	ven vent
+veracious	veri ver
+veracity	veri ver
+verify	veri ver
+verbalize	verb
+adverb	verb
+proverb	verb
+reverse vert vers
+introvert vert vers
+version	vert vers
+controversy	vert vers
+vice-president	vice
+evident	vid
+convince	vince vic
+invincible	vince vic
+victory	vince  vic
+vision	vis  vid
+envision	vis  vid
+evident	vis  vid
+revival	vivi vit viv
+vital	vivi vit viv
+vivacious	vivi vit viv
+advocate	voci voc
+equivocate  voci voc
+vocalize	voci voc
+benevolent	voli vol volu
+volition	voli vol volu
+carnivorous vour vor
+voracious vour vor
+devour vour vor
+xanthium	xanth
+xanthochromia	xanth
+xanthogenic	xanth
+xenophobic	xeno xen
+xenogenesis	xeno xen
+xenophile	xeno xen
+xerophyte	xeri xero xer
+xerography	xeri xero xer
+xeric	xeri xero xer
+xylocarp	xyl
+xyloid	xyl
+zoology	zoo zo
+zooid	zoo zo
+zooplankton	zoo zo
+zygote	zygo zyg
+zygomorphic	zygo zyg
+English examples	Root
+abnormal	a ab abs
+abrasion	a ab abs
+aversion	a ab abs
+abstract	a ab abs
+abstain	a ab abs
+absent	a ab abs
+acupuncture	ac
+exacerbate	acerb
+acerbic	acerb
+acidosis	acid
+acronym	acr
+acrophobia	acr
+acromegaly	acr
+acrobatics	acr
+acrid	acr
+acrimony	acr
+acute	acu
+acutifoliate	acu
+acupuncture	acu
+affect	ar at ap a ag as ac ad af al
+accept	ar at ap a ag as ac ad af al
+ascend	ar at ap a ag as ac ad af al
+approximate	ar at ap a ag as ac ad af al
+adapt	ar at ap a ag as ac ad af al
+adipose	adip
+aeronautics	aer
+aerosol	aer
+anaesthetic	aesthet
+aesthetics	aesthet
+agronomy	agr
+peregrine	egri agri
+agriculture	egri agri
+albedo	alb
+albino	alb
+albumen	alb
+amorous	amat amor am
+amateur	amat amor am
+ambidexterity	ambi
+ambivalent	ambi
+amicable	amic imic
+inimical	amic imic
+amphibian	amphi amph
+amphoterism	amphi amph
+amphibolic	amphi amph
+amplification	ampl
+atypical	an a
+anhydrous	an a
+anabaptist	ana an
+anion	ana an
+anaphylaxis	ana an
+anode	ana an
+androgen	andr
+android	andr
+anemometer	anem
+animation	anim
+animal	anim
+annual	enn ann
+anniversary	enn ann
+millennium	enn ann
+biannual	enn ann
+antibiotic	ant anti
+antagonist	ant anti
+antipodes	ant anti
+antediluvian	anti ante
+antebellum	anti ante
+antiquarian	anti ante
+anticipate	anti ante
+anther	anth
+anthology	anth
+anthropology	anthrop
+anthropomorphic	anthrop
+apogee	apo ap
+apocrine	apo ap
+apostasy	apo ap
+aqueduct	aqu
+aquamarine	aqu
+aquarium	aqu
+aquifer	aqu
+arable	ar
+arid	ar
+archaeology	arche archae
+archeology	arche archae
+archaic	arche archae
+archangel	archi arche
+archetype	archi arche
+arctic ocean	arct
+argent	argent
+argentina	argent
+aristocracy	arist
+arthropod	arthr
+arthritis	arthr
+disaster	astr
+astronomy	astr
+astrology	astr
+asterisk	astr
+athlete	athl
+pentathlon	athl
+audible	audi
+auditorium	audi
+auditory	audi
+augmentation	auct aug
+augend	auct aug
+aureole	aur
+aureate	aur
+auricle	auri
+automobile	aut auto
+autonomy	aut auto
+autograph	aut auto
+aviation	avi
+aviary	avi
+axisymmetry	axi
+axiology	axio
+bacilla	bac
+bacteria	bac
+barometer	bar
+barograph	bar
+basis	basi
+basic	basi
+bathyscaphe	batho bathy
+batholith	batho bathy
+beatification	beat be
+belligerent	bell
+antebellum	bell
+bellicose	bell
+benignity	ben
+benefit	ben
+binary	bi
+binoculars	bi
+biscotti	bi
+bigamy	bi
+imbibe	bib
+bibliography	bibl
+bible	bibl
+biosphere	bio
+biography	bio
+biology	bio
+biologist	bio
+bioluminescent	bio
+blennophobia	blenn
+blennosperma	blenn
+sideroblast	blast
+fibroblast	blast
+osteoblast	blast
+blastula	blast
+bonitary	bon
+bonify	bon
+borealis	bor
+botany	botan
+bovine	bov
+brachiosaurus	brachi
+brachial artery	brachi
+brachydactyly	brachy
+bradycardia	brady
+nudibranch	branchi
+branchiopod	branchi
+brevity	brevi
+abbreviation	brevi
+bromus ramosus	brom
+bromide	brom
+bronchus	bronch
+bronchitis	bronch
+bronchiole	bronch
+Brontosaurus	bront
+buccinator muscle	bucc
+buccal	bucc
+bulbous	bulb
+bulbule	bulb
+ebullism	bull
+ebullient	bull
+bursa	burs
+disburse	burs
+bursar	burs
+bursary	burs
+cacophony	cac
+accident	cid cas cad
+case	cid cas cad
+cadence	cid cas cad
+caesura	caed cis cid caes
+incisor	caed cis cid caes
+calculus	calc
+calcium	calc
+calcite	calc
+calligraphy	calli call
+calorie	calor
+apocalypse	calyp
+bicameral	camer
+camera	camer
+campaign	camp
+champion	camp
+Canis Major	can
+canine	can
+cantata	cant can cin
+canto	cant can cin
+cantor	cant can cin
+incandescent	cand
+candela	cand
+incendiary	cand
+candor	cand
+incense	cand
+candle	cand
+candid	cand
+conception	capt cept cap cip
+capture	capt cept cap cip
+recipient	capt cept cap cip
+captive	capt cept cap cip
+decapitation	cipit capit
+capital	cipit capit
+precipitation	cipit capit
+Capricorn	capr
+caprine	capr
+capsule	caps
+carbon	carbo
+incarceration	carcer
+carcinoma	carcin
+carcinogenic	carcin
+cardiograph	cardi
+cardiology	cardi
+cardinal	cardin
+carnal	carn
+carnivore	carn
+carnival	carn
+carpology	carp
+carpal	carp
+carpal tunnel syndrome	carp
+caste	cast
+castrate	cast
+castigate	cast
+catabolic	cata cat
+catastrophe	cata cat
+catatonia	cata cat
+catalyst	cata cat
+cathode	cata cat
+cation	cata cat
+concatenation	caten
+catenary	caten
+catharsis	cathar
+caudal	caud
+causative	cus caus
+cavity	cav
+excavation	cav
+cave	cav
+recede	ced cess
+procession	ced cess
+secede	ced cess
+acceleration	celer
+celerity	celer
+cenozoic	cen
+cenotaph	cen
+census	cens
+centennial	cent
+cent	cent
+centurion	cent
+centenary	centen
+centesimal	centesim
+centesimation	centesim
+eccentric	centr
+cephalic	cephal
+cephalopod	cephal
+encephalogram	cephal
+ceramic	ceram
+keratin	kerat
+secern	cern
+discern	cern
+cervix	cervic
+cervical	cervic
+etcetera	ceter
+chiropractic	chir
+chiral	chir
+chiroptera	chir
+chelonia	chelon
+chlorine	chlor
+chloroplast	chlor
+chlorophyll	chlor
+choreography	chore
+chordata	chord
+chromosome	chrom
+chromium	chrom
+monochrome	chrom
+chronometer	chron
+chronology	chron
+chronic	chron
+chrysolite	chrys
+cilia	cili
+supercilious	cili
+cinema	cine
+incineration	ciner
+succinct	cinct cing
+circus	circ
+circumference	circum
+circumcise	circum
+circumlocution	circum
+circumnavigate	circum
+cirrhosis	cirr
+cirrus	cirr
+civility	civ
+clade	clad
+declaration	clar
+clarity	clar
+iconoclast	clast
+osteoclast	clast
+clause	claud claus clus clud
+exclusion	claud claus clus clud
+include	claud claus clus clud
+clavicle	clav
+clavichord	clav
+conclave	clav
+cleithrum	cleithr
+inclement	clement
+clemency	clement
+inclined	clin
+declination	clin
+cochlea	cochl
+blastocoel	coel
+spongocoel	coel
+coelom	coel
+recognize	cogn
+cognizant	cogn
+cognitive	cogn
+colander	col
+collar	coll
+tricolor	color
+coloratura	color
+coloration	color
+compress	cor col con com co
+coagulate	cor col con com co
+corrode	cor col con com co
+connect	cor col con com co
+collide	cor col con com co
+contain	cor col con com co
+conoid	con
+conical	con
+conic	con
+condiment	condi
+contradiction	contra
+contrast	contra
+coprophilia	copr
+coprophagia	copr
+coprolite	copr
+coracoid	corac
+cordial	cord
+accord	cord
+cornucopia	corn
+cornea	corn
+unicorn	corn
+corona	coron
+coronation	coron
+corpse	corpor
+corporation	corpor
+corpuscle	corpor
+corticosteriod	cortic
+cosmonaut	cosm
+cosmic	cosm
+cosmetology	cosmet
+cosmetics	cosmet
+costal	cost
+cotyledon	cotyl
+democracy	cracy crat
+cranium	crani
+crassitude	crass
+creation	cre
+creature	cre
+incredible	cred
+credibility	cred
+creditor	cred
+credentials	cred
+cribrate	cribr
+cribble	cribr
+crisis	crit cris
+critic	crit cris
+crispate	crisp
+cristate	crist
+crucifix	cruc
+crucial	cruc
+excruciating	cruc
+crucify	cruc
+crural	crur
+cryptography	crypt
+cryptic	crypt
+ctenophore	cten
+cuboid	cub
+cubic	cub
+succuba	cub
+incubation	cub
+culinary	culin
+culpable	culp
+exculpate	culp
+cuneiform	cune
+recursion	curs curr
+cursive	curs curr
+current	curs curr
+concurrent	curs curr
+curvature	curv
+bicuspid	cuspid
+cuticle	cut
+cyanide	cyan
+bicycle	cycl
+cyclone	cycl
+cycle	cycl
+cylinder	cylind
+cynosure	cyn
+cystic	cyst
+cnidocyte	cyt
+cytoplasm	cyt
+English examples	Root
+pterodactyl	dactyl
+dactylology	dactyl
+damnation	damn demn
+condemn	damn demn
+dementia	de
+descend	de
+deletion	de
+debit	deb
+decagram	dek dec deca deka
+decahedron	dek dec deca deka
+decimal	decim
+decimate	decim
+deltoid	delt
+demagogue	dem
+democracy	dem
+denary	den
+denarius	den
+dendrochronology	dendr
+dendrite	dendr
+density	dens
+condense	dens
+dental	dent
+dentures	dent
+dentifrice	dent
+hypodermic	derm
+dermis	derm
+epidermis	derm
+deuterostome	deuter
+Deuteronomy	deuter
+dextrose	dexter
+dexterity	dexter
+Dexiarchia	dexi
+dipole	di
+dicot	di
+diode	di
+dialysis	dia
+diameter	dia
+diagram	dia
+predict	dict
+dictate	dict
+contradict	dict
+dictation	dict
+edict	dict
+dictionary	dict
+digital	digit
+dinosaur	dino
+diploid	dipl
+diplosis	dipl
+docile	doct doc
+indoctrinate	doct doc
+doctor	doct doc
+dodecasyllabic	dodec
+orthodox	dox dogmat
+dogmatic	dox dogmat
+dome	dom
+donation	don
+condone	don
+dormant	dorm
+dormitory	dorm
+dorsal	dors
+dual	du
+dubious	dub
+abduction	duct duc
+introduction	duct duc
+conductor	duct duc
+deduction	duct duc
+production	duct duc
+reduction	duct duc
+dulcet	dulc
+duration	dur
+obdurate	dur
+durable	dur
+endure	dur
+duress	dur
+dyad	dy
+dynamism	dynam
+dynasty	dynam
+dynamite	dynam
+dysentery	dys
+dystrophy	dys
+dysplasia	dys
+eccentric	ec
+economics	eco
+ecumenism	eco
+ecology	eco
+ectoderm	ecto
+edible	es ed
+egocentric	ego
+egophony	eg ego
+redeem	empt em
+preempt	empt em
+exemption	empt em
+emetic	eme
+emulator	emul
+emphasis	en em
+endocytosis	endo
+endocrine	endo
+enneagon	ennea
+ennead	ennea
+eocene	eo eoso eos
+epicenter	ep epi
+epoch	ep epi
+epitaph	ep epi
+epistemic	epistem
+equal	iqu equ
+equivalence	iqu equ
+equestrian	equ
+ergonomics	erg
+errant	err
+aberration	err
+erythrocyte	erythr
+esoteric	eso
+ethology	eth etho ethi
+ethmoid	ethm
+ethnic	ethn
+ethnarch	ethn
+etymology	etym
+euthanasia	eu
+euphoria	eu
+europe	eur
+extrude	e ef ex
+exclude	e ef ex
+extend	e ef ex
+exoskeleton	exo
+exothermic	exo
+exterior	extra exter
+extremity	extrem
+extremophile	extrem
+fate	fat f
+infant	fat f
+preface	fat f
+faba bean	fab
+manufacture	fac fact fic fect
+defect	fac fact fic fect
+factory	fac fact fic fect
+falciform	falc
+infallibility	fals fell fall
+falsity	fals fell fall
+fallacy	fallac
+familiarity	famili
+fantasy	fant
+fascism	fasc
+fasciculation	fasc
+infatuation	fatu
+fatuous	fatu
+confederation	feder
+federal	feder
+felinae	fel
+feline	fel
+felicity	felic
+fellation	fell
+femininity	femin
+femoral	femor
+defend	fens fend
+offense	fens fend
+defenestration	fenestr
+transfer	fer
+reference	fer
+ferocity	feroc
+ferrous	ferr
+fetor	fet
+fetid	fet
+Ficus	fic
+confidence	fid fis
+fidelity	fid fis
+filament	fil
+affiliation	fili
+finish	fin
+final	fin
+fissures	fiss find
+fission	fiss find
+confirmation	firm
+firmament	firm
+fistula	fistul
+insufflation	fl
+flatulence	fl
+inflation	fl
+flaccid	flacc
+flavonoid	flav
+flexile	flect flex
+flexible	flect flex
+inflection	flect flex
+flexor	flect flex
+conflict	flict flig
+inflict	flict flig
+floral	flor
+florid	flor
+influx	flux flu
+fluency	flux flu
+effluent	flux flu
+focal	foc
+fossil	fod foss
+defoliant	foli
+fontal	font
+fontanelle	font
+font	font
+foralite	for
+foraminifer	for
+foramen	for
+perforation	for
+conformity	form
+formation	form
+reformatory	form
+deformity	form
+fornication	fornic
+fortification	fort
+fovea	fove
+fragment	frang fract fring frag
+frangible	frang fract fring frag
+fracture	frang fract fring frag
+infringe	frang fract fring frag
+fraternity	fratr frater
+friction	frict fric
+dentifrice	frict fric
+frigorific	frig
+frigid	frig
+confront	front
+frontage	front
+frontal	front
+fructose	fruct frug
+centrifuge	fugit fug
+refuge	fugit fug
+fugitive	fugit fug
+fume	fum
+fumigation	fum
+profundity	fund
+fundamentalism	fund
+profusion	fus fund
+fusion	fus fund
+profuse	fus fund
+effusion	fus fund
+diffusion	fus fund
+effusive	fus fund
+transfusion	fus fund
+function	funct fung
+fungibility	funct fung
+furtive	fur furt
+bifurcation	furc
+obfuscation	fusc
+galactic	galact
+gastric	gastr
+gastroenterology	gastr
+geography	geo
+geometry	geo
+geology	geo
+gelid	gel
+gelatin	gel
+genocide	gen
+eugenics	gen
+gestation	ger gest
+digest	ger gest
+germination	germin
+glabrous	glabr
+glacier	glaci
+gladiator	gladi
+glial	glia
+global	glob
+globule	glob
+glorify	glori
+agglutination	glutin
+regress	gred gress grad
+grade	gred gress grad
+grammar	gram
+grammatic	gram
+granule	gran
+granola	gran
+granite	gran
+granary	gran
+grandiloquous	grand
+grandiosity	grand
+grapheme	graph
+graphology	graph
+graphic	graph
+ingrate	grat
+gratitude	grat
+grave	grav
+aggravation	grav
+gravity	grav
+gregarious	greg
+segregation	greg
+egregious	greg
+gubernatorial	gubern
+disgust	gust
+gusto	gust
+guttifer	gutt
+gutta	gutt
+guttiform	gutt
+guttural	guttur
+gymnastics	gymn
+gymnasium	gymn
+gymnosperm	gymn
+gynecology	gyn
+habit	habit hibit hab hib
+prohibition	habit hibit hab hib
+haemophilia	hem haem
+hemoglobin	hem haem
+halogen	hal
+anhelation	hel hal
+inhale	hel hal
+haploid	hapl
+haplotype	hapl
+exhaustion	haur haust
+heliocentric	heli
+helium	heli
+heliotrope	heli
+hemisphere	hemi
+hemicycle	hemi
+henad	hen
+hyphen	hen
+hendecagon	hendec
+heptode	hept
+heptagon	hept
+heptathlon	hept
+coherent	hes her
+adhesive	hes her
+herbal	herb
+herbicide	herb
+heredity	hered
+herpes	herp
+herpetology	herp
+heterodoxy	heter
+heuristic	heur
+hexahedron	hex
+hexode	hex
+hexagon	hex
+hibernation	hibern
+hiemal	hiem
+hippodrome	hipp
+hirsute	hirsut
+hispidity	hispid
+hispidulous	hispid
+histrionic	histri
+cathode	hod
+hodometer	hod
+herpolhode	hod
+holistic	hol
+homophone	hom
+homosexual	hom
+homeostasis	home
+hominid	homin
+anomalous	homal
+honorable	honor
+honorarium	honor
+horizon	hor
+aphorism	hor
+horoscope	hor
+hormone	horm
+horticulture	hort
+hospital	hospit
+hospitality	hospit
+inhospitable	hospit
+hostile	host
+inhume	hum
+exhumation	hum
+hyaloid	hyal
+hyaline	hyal
+hydraulics	hydr
+hydrophily	hydr
+hydrous	hydr
+hydrophobia	hydr
+hydroponic	hydr
+hydrology	hydr
+hydrolysis	hydr
+hygrometer	hygr
+hyoid	hyo
+hypothermia	hyp
+hypertonic	hyper
+hyperbole	hyper
+hypnosis	hypn
+hysteresis	hyster
+ichthyology	ichthy
+icosagon	icos
+icosahedron	icos
+idol	id
+ideogram	ide
+ideology	ide
+idiom	idi
+idiosyncrasy	idi
+idiot	idi
+ignition	ign
+igneous	ign
+intend	im in 
+incur	im in 
+invite	im in 
+import	im in 
+impossible	in im ir il
+inimical	in  im ir il
+illicit	in  im ir il
+irrational	in  im ir il
+infrastructure	infra
+insulation	insul
+insular	insul
+intersection	inter
+intercollegiate	inter
+intermission	inter
+intramural	intra
+irate	irat irasc
+irascible	irat irasc
+isomorphic	is iso
+isotropic	is iso
+isometric	is iso
+iteration	iter
+itinerary	itiner
+adjacent	jac
+trajectory	ject jac 
+ejaculate	ject jac 
+interject	ject jac 
+eject	ject jac 
+janitor	janu
+jocularity	joc
+conjugal	jug
+subjugate	jug
+juncture	jung junct
+conjunction	jung junct
+juniority	junior
+jury	judic 
+judge	judic 
+justice	judic 
+adjutant	juv jut
+rejuvenate	juven
+juvenile	juven
+juxtaposition	juxta
+kilogram	kilo
+kilobyte	kilo
+kilometer	kilo
+kinesthetic	kine
+kinetic energy	kine
+telekinesis	kine
+kleptomania	klept
+kudos	kudo
+elapse	lab laps
+relapse	lab laps
+labial	labi
+bilabial	labi
+collaboration	labor
+elaboration	labor
+laceration	lacer
+lacrimal	lacrim
+lacrimous	lacrim
+lactate	lact
+lactose	lact
+lactation	lact
+laminate	lamin
+lamination	lamin
+lamp	lamp
+lapidary	lapid
+enlargement	larg
+larval	larv
+larvae	larv
+larva	larv
+latitude	lat
+bilateral	later
+laud	laud laus
+lavatory	lav
+laxative	lax
+relaxation	lax
+lesion	les led
+legislative	leg
+legal	leg
+relegate	leg
+leiomyoma	lei
+lekane	lekan
+leniency	leni
+Leopold	leon
+leonine	leon
+Leo	leon
+Lepidoptera	lep
+epilepsy	leps
+leucocyte	leuco leuko
+elevator	lev
+levitation	lev
+liberty	liber
+liberation	liber
+library	libr
+librarian	libr
+ligature	lig
+ligament	lig
+limacon	limac
+limacoid	limac
+line	lin
+linearity	lin
+bilingual	lingu
+linguistic	lingu
+relict	linqu lict
+relinquish	linqu lict
+lipolysis	lip
+alliteration	liter
+illiterate	liter
+literal	liter
+obliterate	liter
+literacy	liter
+Neolithic Era	lith
+monolith	lith
+lithosphere	lith
+megalith	lith
+local	loc
+location	loc
+morphological	log
+logic	log
+monologue	log
+longitude	long
+elongate	long
+allocution	locut loqu
+eloquence	locut loqu
+Lucifer	luc
+illusion	lud lus
+allude	lud lus
+luminous	lumin
+illumination	lumin
+lunatic	lun
+lunar	lun
+hydrolysis	lysis
+cytolysis	lysis
+analysis	lysis
+English examples	Root
+macron	macro
+magnitude	magn
+magnificent	magn
+magnanimous	magn
+majuscule	maj
+majority	maj
+majesty	maj
+malicious	mal
+malignancy	mal
+malfeasance	mal
+malodorous	mal
+mammal	mamm
+mammary gland	mamm
+immanation	man
+immanant	man
+emanate	man
+emanationism	man
+remanence	man
+permanent	man
+permanence	man
+immanence	man
+remanent	man
+manse	man
+immanent	man
+remand	mand
+mandate	mand
+kleptomania	mania
+maniac	mania
+manual	manu
+manuscript	manu
+maritime	mar
+marine	mar
+matrix	mater matr
+matriarch	mater matr
+maternity	mater matr
+maximum	maxim
+median	midi medi
+medieval	midi medi
+megaphone	meg
+meiosis	mei
+melanoma	melan
+Melanesia	melan
+amelioration	melior
+mellifluous	mell
+memorial	memor
+meningitis	mening
+menopause	men
+menstruation	menstru
+menstrual	menstru
+commensurate	mensur
+mentality	ment
+demented	ment
+polymer	mer
+merchant	merc
+mercantile	merc
+immersion	merg mers
+emerge	merg mers
+mesolithic	mes
+mesozoic	mes
+metric	meter metr
+thermometer	meter metr
+metaphor	meta
+metaphysics	meta
+micelle	mic
+microscope	micr
+microphone	micr
+migrate	migr
+emigrant	migr
+military	milit
+militia	milit
+million	mill
+millennium	mill
+millenary	millen
+mime	mim
+mimic	mim
+prominent	min
+minority	min
+minuscule	min
+miracle	mir
+mirror	mir
+admire	mir
+misogyny	mis
+misandry	mis
+miscellaneous	mixt misce
+mixture	mixt misce
+mitochondrion	mit
+missionary	miss mitt
+intermittent	miss mitt
+transmission	miss mitt
+mnemonic	mne
+molar	mol
+mollify	moll
+emollient	moll
+monism	mon
+monolith	mon
+monotone	mon
+Moniliformida	monil
+Montana	mont
+morsel	mord
+remorse	mord
+mordacious	mord
+morphology	morph
+anthropomorphism	morph
+morpheme	morph
+mortality	mort
+immortal	mort
+mortuary	mort
+momentum	mot mov
+mobile	mot mov
+motor	mot mov
+move	mot mov
+emulsion	muls mulg
+multiplex	mult
+multitude	mult
+multiple	mult
+immured	mur
+mural	mur
+mouse	mus
+Muscicapidae	musc
+Muscidae	musc
+mutation	mut
+musophobia	my
+myriapod	myri
+myriad	myri
+myrmecoid	myrmec
+Myrmidons	myrmec
+mythic	myth
+mythology	myth
+Myxini	myx
+Myzopoda	myz
+English examples	Root
+narcosis	narc
+narcotic	narc
+narrative	narr
+nasal	nas
+nascent	nat nasc
+native	nat nasc
+astronaut	naut
+Argonaut	naut
+naval	nav
+neologism	ne
+necrophobia	necr
+nectopod	nect
+connexion	nex nect
+connect	nex nect
+negative	neg
+nematode	nema
+nemoral	nemor
+nephritis	nephr
+Polynesia	nes
+neurosurgeon	neur
+neurology	neur
+nictation	nict
+denigrate	nigr
+annihilation	nihil
+nocturnal	noct
+noctambulist	noct
+nodule	nod
+node	nod
+autonomous	nom
+taxonomy	nom
+nomadic	nomad
+nomination	nomin
+none	non
+nonary	non
+nonagenary	nonagen
+nonagesimal	nonagesim
+annotation	not
+notable	not
+nothogenus	noth
+notochord	noto
+novennial	nov
+November	nov
+innovation	nov
+nova	nov
+novenary	noven
+noxious	nox noc
+innuendo	nu
+nubile	nub
+connubial	nub
+nucleus	nuc
+nuchal cord	nuch
+denude	nud
+nudity	nud
+nullify	null
+numeral	numer
+pronunciation	nunci
+nuptial	nupti
+nutrient	nutri
+obstinate	of os oc o op og ob
+ostentatious	of os oc o op og ob
+obstreperous	of os oc o op og ob
+offend	of os oc o op og ob
+omit	of os oc o op og ob
+oppose	of os oc o op og ob
+occur	of os oc o op og ob
+octagon	oct
+octahedron	oct
+octode	oct
+octangular	oct
+octovir	oct
+octennial	oct
+octaval	octav
+octogenary	octogen
+octogesimal	octogesim
+octonary	octon
+ocular	ocul
+ullage	ocul
+oculus	ocul
+odometer	od
+pentode	od
+triode	od
+diode	od
+tetrode	od
+anode	od
+odious	od
+odontology	odont
+odorous	odor
+ecology	oeco
+oedema	oed
+oenology	oen
+oesophagus	oesophag
+ogdoad	ogdo
+asteroid	oid
+mucoid	oid
+organoid	oid
+oleosity	ole
+olecranon	olecran
+oligarchy	olig
+olivary	oliv
+olivaceous	oliv
+olivette	oliv
+melanoma	oma
+omasum	omas
+omental	oment
+ominous	omin
+abominable	omin
+ommatidium	omm
+omnipotence	omni
+omnivore	omni
+omphalectomy	omphal
+onerous	oner
+exonerate	oner
+onomatopoeia	onom
+ontogeny	ont
+ontology	ont
+pseudonym	onym
+synonym	onym
+antonym	onym
+oocyte	oo
+opacity	opac
+inoperable	oper
+opera	oper
+ophiophagy	ophi
+ophthalmology	ophthalm
+opisthosoma	opisth
+opsimath	opisth
+optical	opt
+adopt	opt
+optional	opt
+optimum	optim
+oral	or
+orator	or
+orbit	orb
+orchid	orch
+ordinary	ordin
+ordinal	ordin
+organism	organ
+orient	ori ort
+ornate	orn
+ornament	orn
+adorn	orn
+ornithology	ornith
+orthosis	orth
+orthodoxy	orth
+orthodontist	orth
+oscillation	oscill
+ossification	oss
+osteoporosis	osteo
+ostiole	osti
+ostracism	ostrac
+otology	ot
+ovary	ov
+ovule	ov
+oval	ov
+ovine	ovi
+oxygen	oxy
+oxymoron	oxy
+pacifism	pac
+pachydermata	pach
+Pachypodium	pach
+paediatric	paed
+pagination	pagin
+impalement	pal
+pale	pal
+paleontology	palae pale
+palindrome	palin
+pallid	pall
+pallor	pall
+pallium	palli
+palmate	palm
+palustral	palustr
+pandemic	pam pan
+expand	pans pand
+expansion	pans pand
+parameter	para
+parallel	para
+parietal	pariet
+bipartite	part
+partition	part
+parthenogenesis	parthen
+parvovirus	parv
+repast	past pasc
+pasture	past pasc
+passerine	passer
+passeriform	passer
+patent	pat
+pathology	path
+pathetic	path
+passive	pati pass
+patience	pati pass
+patriarch	patr
+patrilocal	patr
+paucal	pauc
+paucity	pauc
+pauciloquent	pauc
+pavement	pav
+impeccable	pecc
+pectic	pect
+pectin	pect
+pectoral	pector
+pecuniary	pecun
+pedagogy	ped
+pedal	ped
+quadruped	ped
+pejorative	pejor
+propellent	pell puls
+repellent	pell puls
+propulsor	pell puls
+penumbra	pen
+peninsula	pen
+penultimate	pen
+suspend	pens pend
+pinnate	penn pinn
+pennate	penn pinn
+pentagrid	pent
+pentagon	pent
+pentode	pent
+pentecostalism	pentecost
+peptide	pept
+peptic	pept
+pervade	per
+permeate	per
+perfection	per
+persistence	per
+peripheral	peri
+perimeter	peri
+periscope	peri
+pessimal	pessim
+appetite	pet
+competition	pet
+petroglyph	petr
+phaeomelanin	phae
+sarcophagus	phag
+phalanges	phalang
+phalarope	phalar
+pharmacy	pharmac
+phanerozoic	phaner
+pheromone	pher
+philosophy	phile phil
+hydrophile	phile phil
+phlegmatics	phleg
+phlegm	phleg
+phlobaphene	phloe
+phloem	phloe
+hydrophobia	phob
+homophone	phon
+microphone	phon
+phonograph	phon
+metaphor	phor
+photograph	phot phos
+phosphor	phot phos
+diaphragm	phragm
+phrenetic	phren
+schizophrenia	phren
+Phrynobatrachus	phryn
+phylogenetics	phyl
+phylum	phyl
+phyllotaxis	phyll
+chlorophyll	phyll
+physics	phys
+physalis	physalid
+phytoplankton	phyt
+neophyte	phyt
+epilator	pil
+depilatory	pil
+pinocytosis	pin
+pineal gland	pin
+picture	ping pict
+depiction	ping pict
+Pinguicula	pingu
+piriformis muscle	pir
+piscivore	pisc
+Pisces	pisc
+placate	plac
+placid	plic plac
+placebo	plic plac
+plagioclase	plagi
+planar	plan
+plane	plan
+explanation	plan
+plangent	plang planct
+plastic	plas
+plasma	plas
+platypus	platy
+applause	plaus plaud plos plod
+explosion	plaus plaud plos plod
+plausible	plaus plaud plos plod
+implode	plaus plaud plos plod
+plaudits	plaus plaud plos plod
+applaud	plaus plaud plos plod
+suppletion	plet ple
+complement	plet ple
+plebian	pleb
+plebs	pleb
+plectics	plec
+symplectomorphism	plec
+perplex	plex plect
+plenary	plen
+plethora	pleth
+replicate	plic
+duplication	plic
+implore	plor
+plumate	plum
+plumage	plum
+plumber	plumb
+plural	plur
+surplus	plus
+plutocracy	plut
+pluvial	pluvi
+pneumatic	pneu
+tripod	pod
+podiatry	pod
+pogonotrophy	pogon
+poiesis	poie
+polar	pol
+dipole	pol
+metropolis	poli pole
+politics	poli pole
+polemic	polem
+pollination	pollin
+polygon	poly
+position	posit pon
+postpone	posit pon
+component	posit pon
+preponderance	ponder
+pontoon	pont
+population	popul
+pore	por
+porcine	porc
+pork	porc
+porphyrin	porphyr
+portal	port
+export	port
+transportation	port
+posterior	post
+postscript	post
+potable	pot
+hippopotamus	potam
+Mesopotamia	potam
+prasinous	prasin
+depravity	prav
+previous	pre
+deprecation	prec
+predator	pred
+comprehend	prehend prend prehens
+pressure	prem press prim
+Presbyterianism	presby
+pretermission	preter
+preterite	preter
+primary	prim
+primeval	prim
+primitive	prim
+priority	prior
+deprivation	priv
+privilege	privi
+propulsion	pro
+probation	prob
+proctology	proct
+propriety	propri
+appropriate	propri
+property	propri
+protoplasm	prot
+approximate	proxim
+proximity	proxim
+prune	prun
+pseudonym	pseud
+epsilon	psil
+psycho	psych
+helicopter	pter
+ptosis	pto
+triptych	ptych
+pubescent	pub
+pubic	pub
+publication	public
+impudent	pude
+pugnacious	pugn
+repugnant	pugn
+pulchritude	pulchr
+pulmonary	pulmon
+pulverize	pulver
+puncture	punct pung
+pungent	punct pung
+impunity	puni
+punitive	puni
+pupa	pup
+puppet	pup
+purify	pur
+impurity	pur
+expurgate	purg
+purge	purg
+purgatory	purg
+putative	put
+compute	put
+callipygian	pyg
+pygostyle	pyg
+pylon	pyl
+pyrolysis	pyr
+quadrangle	quadr
+quadrillion	quadr
+quadragenary	quadragen
+quadragesimal	quadragesim
+quartary	quart
+quartile	quart
+quasar	quasi
+quaternary	quatern
+quaternion	quatern
+query	quesit quisit quir quer
+Inquisition	quesit quisit quir quer
+requiem	qui
+quiet	qui
+quinary	quin
+quindecimal	quindecim
+quindenary	quinden
+quinquennium	quinque
+quintile	quint
+quintary	quint
+quota	quot
+quotient	quot
+abrasion	ras rad
+erasure	ras rad
+abrade	ras rad
+radiance	radi
+radiation	radi
+eradicate	radic
+radical	radic
+ramose	ram
+ramification	ram
+Rana	ran
+rancid	ranc
+rancor	ranc
+rapeseed	rap
+rarity	rar
+raucous	rauc
+recede	red re
+redact	red re
+erect	reg rig rect
+erection	reg rig rect
+dirigible	reg rig rect
+rectum	reg rig rect
+bireme	rem
+trireme	rem
+renal	ren
+reptile	rept rep
+reticle	ret
+retina	ret
+retrospective	retro
+retrograde	retro
+retrovirus	retro
+rhabdom	rhabd
+rhabdoid	rhabd
+rhachiodont	rhach rach
+rhagades	rhag
+rheostat	rhe
+rhigosaurus	rhig
+rhinoplasty	rhin
+rhizome	rhiz
+rhododendron	rhod
+rhombus	rhomb
+Rhynchobatus	rhynch
+ridicule	ris rid
+derision	ris rid
+corroboration	robor
+corrode	rod ros
+rodent	rod ros
+erosion	rod ros
+derogatory	rog
+interrogation	rog
+rostral	rostr
+rostriform	rostr
+rostrum	rostr
+rotation	rot
+ruby	rubr ruber
+rubric	rubr ruber
+corrugation	rug
+rumination	rumin
+interrupt	rupt rump
+rupture	rupt rump
+eruption	rupt rump
+rural	rur
+saccharin	sacchar
+consecrate	sacr secr
+sacrament	sacr secr
+sagacity	sagac
+sagittal plane	sagitt
+Sagittaria	sagitt
+salinity	sal
+resilient	sili sali salt
+saltus	sili sali salt
+salient	sili sali salt
+salicin	salic
+salvation	salv
+insane	san
+sanity	san
+sanctify	sanc
+sanctuary	sanc
+consanguinity	sanguin
+sanguine	sanguin
+insipience	sapi sipi
+sapient	sapi sipi
+saponification	sapon
+sarcophagus	sarc
+dinosaur	saur
+scabies	scab
+scale	scal
+scalar	scal
+scalene muscles	scalen
+scalene triangle	scalen
+ascend	scend scans scens scand
+transcendent	scend scans scens scand
+descend	scend scans scens scand
+scaphoid bone	scaph
+isosceles	scel
+schematic	schem
+schism	schis
+prescient	sci
+science	sci
+scissors	sciss scind
+rescind	sciss scind
+scleroderma	scler
+sclerosis	scler
+scoliosis	scoli
+horoscope	scept scop
+stethoscope	scept scop
+kaleidoscope	scept scop
+inscribe	script scrib
+scripture	script scrib
+sculpture	sculp
+scute	scut
+Scyphozoa	scyph
+sedition	se sed
+secede	se sed
+sebaceous	seb
+sebum	seb
+secant	sec seg sect
+segment	sec seg sect
+section	sec seg sect
+sedative	sed
+supersede	sid sess sed
+sediment	sid sess sed
+reside	sid sess sed
+session	sid sess sed
+sedecimal	sedec
+seismograph	sei
+Selene	selen
+selenium	selen
+sella turcica	sell
+semaphore	sema
+semantics	sema
+semifinal	semi
+insemination	semin
+senator	sen
+senility	sen
+senary	sen
+consensus	senti sens
+sentient	senti sens
+transept	sept
+septennial	sept
+septenary	septen
+septime	septim
+septimal	septim
+septuagenary	septuagen
+septuagesima	septuagesim
+septuagesimal	septuagesim
+Septuagint	septuagint
+consecutive	sequ secut
+sequence	sequ secut
+sative	ser sat
+serous	ser
+serein	ser
+serotine	ser
+serpent	serp
+serration	serr
+conservation	serv
+sesquicentennial	sesqui
+setose	set
+seta	set
+severity	sever
+sexangle	se sex
+semester	se sex
+sexennium	se sex
+sexagenary	sexagen
+sexagesimal	sexagesim
+sextant	sext
+sibilance	sibil
+desiccation	sicc
+sidereal	sider
+signal	sign
+designate	sign
+design	sign
+silence	sil
+silviculture	silvi
+simian	simi
+assimilate	simil
+similarity	simil
+simulation	simul
+singular	singul
+sinistral	sinistr
+insinuate	sinu
+siphon	siph
+persistence	sist
+consist	sist
+sitology	sit
+social	soci
+associate	soci
+solar	sol
+consolation	sol
+solace	sol
+desolate	sol
+sole	sol
+solipsism	sol
+solo	sol
+solenoid	solen
+solution	solut solv
+dissolve	solut solv
+somatic	soma
+insomnia	somn
+resonance	son
+sophist	soph
+absorb	sorb sorpt
+absorption	sorb sorpt
+sordid	sord
+sorority	soror
+spatial	spati
+inspection	spic spect spec
+specimen	spic spect spec
+conspicuous	spic spect spec
+spectator	spect
+speculation	specul
+esperance	sper
+desperation	sper
+angiosperm	sperm
+spheroid	spher
+sphere	spher
+sphincter	sphinct
+spicule	spic
+spine	spin
+respiration	spir
+respond	spond spons
+sputum	spu sput
+squalor	squal
+squalid	squal
+squamous	squam
+station	st
+status	st
+statue	st
+statistic	st
+stable	st
+stagnant	stagn
+stalactite	stalact
+stalagmite	stalagm
+stannous	stann
+institution	statu stitu
+statute	statu stitu
+stearic acid	stea
+steganography	steg
+constellation	stell
+stellar	stell
+stenography	sten
+stratify	strat stern
+sternum	stern
+stigma	stig
+distillation	still
+stimulate	stimul
+distinguish	stingu stinct
+distinction	stingu stinct
+stochastic	stoch
+stomatoplasty	stom
+strigogyps	strig
+stringent	strict string
+apostrophe	stroph
+construction	struct stru
+construe	struct stru
+student	stud
+stupor	stup
+stylus	styl
+suture	sut su
+sui generis	sui
+suicide	sui
+persuasion	suas suad
+suave	suav
+suffix	su suf sus sug sub
+submerge	su suf sus sug sub
+suggest	su suf sus sug sub
+subterfuge	subter
+sucrose	sucr
+sudoriferous	sud
+sulcus	sulc
+assumption	sum sumpt
+consume	sum sumpt
+supersede	super
+supination	supin
+supranationalism	supra
+absurdity	surd
+resurgent	surg
+system	syn sym sy syl
+synchronous	syn sym sy syl
+sympathy	syn sym sy syl
+symmetry	syn sym sy syl
+symbol	syn sym sy syl
+synonym	syn sym sy syl
+syringe	syring
+English examples	Root
+reticent	tac tic
+tacit	tac tic
+tachycardia	tach
+tachometer	tach
+Taeniolabis	taeni
+taenidium	taeni
+taeniodont	taeni
+talus bone	tal
+tactile	tag tact tang ting
+contact	tag tact tang ting
+tangent	tag tact tang ting
+tapetum	tapet
+tapis	tapet
+tapestry	tapet
+tardy	tard
+tardigrade	tard
+retard	tard
+tarsal	tars
+Minotaur	taur
+Taurus	taur
+taxonomy	tax
+technology	techn
+integument	tect teg
+protection	tect teg
+telephone	tele
+telescope	tele
+telegram	tele
+teleology	tele
+Temnospondyli	temn
+temporary	tempor
+contemporary	tempor
+temporal	tempor
+tenacious	tin tent ten
+tenor	tin tent ten
+continent	tin tent ten
+detention	tin tent ten
+extension	tend tens
+extend	tend tens
+attenuate	tenu
+tenuous	tenu
+tepid	tep
+tepor	tep
+trite	ter trit
+attrition	ter trit
+detritus	ter trit
+contrite	ter trit
+teretial	teret
+subterete	teret
+detergent	terg ters
+terse	terg ters
+terminal	termin
+termination	termin
+determine	termin
+ternion	tern
+ternary	tern
+terrain	terr
+subterranean	terr
+terrace	terr
+terracotta	terr
+tertiary	terti
+tertian	terti
+testimony	test
+testament	test
+tetrode	tetr
+tetrahedron	tetr
+textile	tex text
+context	tex text
+texture	tex text
+Panthalassa	thalass
+euthanasia	than
+theology	thus the
+enthusiasm	thus the
+theca	the
+theme	the
+Bibliotheca	the
+thesis	the
+theorem	theori
+theory	theori
+theroid	ther
+theropod	ther
+endotherm	therm
+thermometer	therm
+dysthymia	thym
+thyratron	thyr
+thyrotropin	thyre
+thyroxine	thyre
+Thyreophora	thyre
+thyroid	thyre
+timorous	tim
+timid	tim
+tincture	tinct ting
+tome	tom
+ectomy	tom
+atom	tom
+isotonic	ton
+monotone	ton
+tone	ton
+topography	top
+topic	top
+torpent	torpe
+torpor	torpe
+torpid	torpe
+torque	tort torqu
+extortion	tort torqu
+torture	tort torqu
+totality	tot
+total	tot
+subtotal	tot
+trabeculae	trab
+trachea	trachy
+tragus	trag
+tractor	trah tract
+subtrahend	trah tract
+tradition	tran trans tra
+transcend	tran trans tra
+transportation	tran trans tra
+trapezius	trapez
+trapezoid	trapez
+trauma	traum
+traumatic	traum
+trecentillion	trecent
+trecentennial	trecent
+tredecimal	tredec
+triskaidekaphobia	treiskaidek
+tremor	trem
+trematode	trema
+tripod	tri
+trigon	tri
+triode	tri
+triad	tri
+trivia	tri
+triangle	tri
+triumvirate	tri
+tricenary	tricen
+trigesimal	tricesim trigesim
+peritrichous	trich
+Trichoptera	trich
+trichopathophobia	trich
+trinary	trin
+trine	trin
+trinity	trin
+tritagonist	trit
+trochlea	troch
+psychotropic	trop
+heliotropism	trop
+tropic	trop
+pogonotrophy	troph
+dystrophy	troph
+trophic	troph
+extrusion	trud trus
+intrude	trud trus
+pertussis	tuss
+tympani	tympan
+typography	typ
+phenotype	typ
+archetype	typ
+English examples	Root
+exuberant	uber
+uliginous	uligin
+ultimatum	ultim
+ultimate	ultim
+ultrasonic	ultra
+umbilical	umbilic
+penumbra	umbr
+umbrella	umbr
+union	un
+unicorn	un
+unary	un
+uncinate	unc
+uncial	unci
+abundant	und
+undulate	und
+undecimal	undecim
+undenary	unden
+ungulate	ungul
+uroid	ur uro
+uroborus	ur uro
+urology	ur uro
+urbanism	urb
+urbanize	urb
+urban	urb
+suburbanite	urb
+urgent	urg
+ursine	urs
+Ursa Major	urs
+usual	us ut
+utility	us ut
+uvea	uv
+uxoricide	uxor
+vacation	vac
+vacancy	vac
+vacuum	vac
+evade	vad vas
+pervasive	vad vas
+vagabond	vag
+vague	vag
+vanity	van
+vaporize	vap
+vapid	vap
+evaporation	vap
+vehicle	veh vect
+vector	veh vect
+revelation	vel
+velate	vel
+convulsion	vuls vell
+velocity	veloc
+venosity	ven
+venison	ven
+convention	ven vent
+advent	ven vent
+vending	vend
+vendor	vend
+veneration	vener
+venereal	vener
+ventilation	vent
+ventral	ventr
+verisimilitude	ver
+verity	ver
+aver	ver
+veracious	ver
+verify	ver
+verbosity	verb
+verbal	verb
+verbatim	verb
+reverberation	verber
+vermiform	verm
+vernal	vern
+inversion	vert vers
+invert	vert vers
+vertical	vert vers
+convert	vert vers
+vesical	vesic
+vesperal	vesper
+divest	vest
+vest	vest
+investigate	vestig
+veto	vet
+inveterate	veter
+veteran	veter
+obvious	vi
+via	vi
+deviate	vi
+vice versa	vic
+vicissitude	vic
+vicenary	vicen vigen
+vicesimation	vicesim vigesim
+vigesimal	vicesim vigesim
+vicesimary	vicesim vigesim
+video	vid vis
+vision	vid vis
+vile	vil
+vilify	vil
+villiform	vill
+vinous	vin
+invincible	vict vinc
+victory	vict vinc
+virility	vir
+virid	vir
+viridian	vir
+viscosity	visc
+eviscerate	viscer
+visceral	viscer
+vital	vit
+vitamin	vit
+vitellogenesis	vitell
+vitiate	viti
+vice	viti
+vitreous	vitr
+survive	viv
+revive	viv
+vivid	viv
+provocative	voc
+vocation	voc
+vocal	voc
+volatility	vol
+volition	vol
+convolution	volv volut
+revolve	volv volut
+vomit	vom
+voracious	vor vorac
+devour	vor vorac
+votive	vov vot
+vulgarity	vulg
+vulgate	vulg
+divulge	vulg
+vulnerable	vulner
+vulpine	vulp
+xanthogenic	xanth
+xenophobia	xen
+xerophyte	xer
+xerography	xer
+xiphoid	xiph
+xylem	xyl
+xylophone	xyl
+protozoa	zo
+zoology	zo
+zoo	zo
+zone	zon
+heterozygous	zyg
+zygote	zyg
+lysozyme	zym
+enzyme	zym
