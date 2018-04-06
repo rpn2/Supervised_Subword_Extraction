@@ -108,11 +108,8 @@ class RandomForest:
         for word, vallist in self.trainfeat.items():
             labellist = []
             for each_vector in vallist:
-                testvector = pd.Series(each_vector)
-                testvector[12] = self.le1.transform(testvector[12])
-                testvector[13] = self.le2.transform(testvector[13])
-                #pval= self.rf.predict(testvector.reshape(1, -1))
-                pval= self.rf.predict(testvector)
+                testvector = np.array(each_vector)
+                pval= self.rf.predict(testvector.reshape(1, -1))
                 labellist.append(pval)
             tr_predicted[word] = labellist
 
