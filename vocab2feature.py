@@ -128,7 +128,7 @@ class Vocab2Feature:
             
             char_list = self.featuredict[word]
             reverse_word=word[::-1]   
-            revcharcount = len(word) - 1
+            revcharcount = len(word) - 2
             #Entropy, sub-word count, wordcount          
             for charcount in range(len(word)):
                 feature_index = 0
@@ -155,7 +155,7 @@ class Vocab2Feature:
 
                     char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_beforesp,0)
                     feature_index += 1
-                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_currsp)
+                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_currsp,0)
                     feature_index += 1
                     char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_aftersp,0)
                     feature_index += 1    
@@ -172,7 +172,7 @@ class Vocab2Feature:
 
                     char_vector[feature_index]   = self.reverse_trie.get(u''+ rev_beforesp,0)
                     feature_index += 1
-                    char_vector[feature_index]  = self.reverse_trie.get(u''+ rev_currsp)
+                    char_vector[feature_index]  = self.reverse_trie.get(u''+ rev_currsp,0)
                     feature_index += 1
                     char_vector[feature_index]  = self.reverse_trie.get(u''+ rev_aftersp,0)
                     feature_index += 1           
@@ -238,11 +238,11 @@ if __name__ == '__main__':
         input_file = sys.argv[1]
         output_file = sys.argv[2]
     else:
-        input_file = 'data/updated_vocabulary.txt'
+        input_file = 'data/combined_vocabulary.txt'
         output_file = 'data/populated_feature.txt'
 
     #vocabulary_data, feature_output, num_features=19, en_ent = 1, en_sw = 1, en_wc = 1, en_ng = 1, en_bg = 1, en_tg = 1
-    v2f = Vocab2Feature(input_file,output_file,12,1,1,0,0,0,0)
+    v2f = Vocab2Feature(input_file,output_file,14,1,1,0,1,0,0)
     v2f.parse_input()
     v2f.calculate_entropy()
     v2f.feature_entropy_subword()

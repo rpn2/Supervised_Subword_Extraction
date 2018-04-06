@@ -13,11 +13,12 @@ import codecs
 
 class RandomForest:
 
-    def __init__(self, totalfeat, totallabel, cv_count = 10, num_trees=50):
+    def __init__(self, totalfeat, totallabel, labeldata,cv_count = 10, num_trees=50):
         self.tfeat = totalfeat
         self.tlabel = totallabel
         self.num_trees = num_trees        
         self.cv_count = cv_count
+        self.label_data = labeldata
         self.accuracy = []
         self.tr_accuracy = []
 
@@ -33,10 +34,11 @@ class RandomForest:
             self.predicted = {}
             self.test_train_split()
             self.prepare_tr_vectors()
-            self.model_training()
+            self.label_encoding()
+            '''self.model_training()
             self.training_accuracy()
             self.model_predict_simple()
-            self.check_accuracy_simple()
+            self.check_accuracy_simple()'''
 
         print("training accuracy", self.tr_accuracy)
         print("test accuracy", self.accuracy)
@@ -72,26 +74,28 @@ class RandomForest:
                     totalfeatures.append(val)
                 totallabels = totallabels + tmplist
 
-        self.featurevector = pd.DataFrame(totalfeatures)
+        self.fc = pd.DataFrame(totalfeatures)
         self.labels = np.array(totallabels)
 
-        '''self.le1 = preprocessing.LabelEncoder()
-        self.le2= preprocessing.LabelEncoder()
+    def label_encoding(self):
 
-        
-        self.le1.fit(self.featurevector[13])        
-        self.featurevector[13] = self.le1.transform(self.featurevector[13])
-        
-        self.le2.fit(self.featurevector[12])        
-        self.featurevector[12] = self.le2.transform(self.featurevector[12])'''
+        print(self.fc[1:3])
 
-        #print( self.featurevector[:5])
-        
+        self.featurevector =self.fc.iloc[ :,1:11]
+        self.le1 = preprocessing.LabelEncoder()
+        self.le1.fit(self.fc[12])
+        self.featurevector[12] = self.le1.transform(self.fc[12])
 
-        
+        self.le2 = preprocessing.LabelEncoder()
+        self.le2.fit(self.fc[13])
+        self.featurevector[13] = self.le2.transform(self.fc[13])
+
+        print(self.featurevector[1:3])
+
 
     # Fit a random forest model
     def model_training(self):
+
         self.rf = RandomForestClassifier(n_estimators=self.num_trees)
         self.rf.fit(self.featurevector,self.labels)
 
@@ -99,23 +103,43 @@ class RandomForest:
     def training_accuracy(self):
 
         tr_predicted = {}
+        tr_predicted_sw = {}
 
         for word, vallist in self.trainfeat.items():
             labellist = []
             for each_vector in vallist:
-                testvector = np.array(each_vector)
-                pval= self.rf.predict(testvector.reshape(1, -1))
+                testvector = pd.Series(each_vector)
+                testvector[12] = self.le1.transform(testvector[12])
+                testvector[13] = self.le2.transform(testvector[13])
+                #pval= self.rf.predict(testvector.reshape(1, -1))
+                pval= self.rf.predict(testvector)
                 labellist.append(pval)
             tr_predicted[word] = labellist
 
         correctres = 0
-        for word, predlabellist in tr_predicted.items():
-            tmplist = self.trainlabels[word]
-            labellist = [tmplist[i] for i in range(1,len(tmplist),2)]
-            if predlabellist == labellist:
-                correctres = correctres + 1            
-           
+        j = 0;
+        for word, predlabellist in tr_predicted.items():  
+            indices = [i for i, x in enumerate(predlabellist) if x == 1]
+            subword_list = []
+            prev = 0
+            comparelist = self.label_data[word]            
+            for index in indices:
+                sw = word[prev:index+1]
+                subword_list.append(sw)
+                prev = index+1
+                if sw in comparelist:
+                    correctres = correctres + 1
+                    break
+            tr_predicted_sw[word] = subword_list
+
         self.tr_accuracy.append(correctres/len(tr_predicted))
+
+        fp = codecs.open("data/tr_debug.txt", 'w', 'utf8')
+        fp.write(str(tr_predicted_sw))
+        fp.close()
+             
+           
+        
 
      # predict for a given word: 
     def model_predict_simple(self):
@@ -131,17 +155,28 @@ class RandomForest:
     # Check accuracy
     def check_accuracy_simple(self):
 
-        correctres = 0
-        for word, predlabellist in self.predicted.items():
-            tmplist = self.testlabels[word]
-            labellist = [tmplist[i] for i in range(1,len(tmplist),2)]
-            if predlabellist == labellist:
-                correctres = correctres + 1            
-            #print(word,labellist,predlabellist)
+        correctres = 0        
+        te_predicted_sw = {}
 
-        #print("Accuracy = ", correctres/len(self.predicted))
+        for word, predlabellist in self.predicted.items():  
+            indices = [i for i, x in enumerate(predlabellist) if x == 1]
+            subword_list = []
+            prev = 0
+            comparelist = self.label_data[word]            
+            for index in indices:
+                sw = word[prev:index+1]
+                subword_list.append(sw)
+                prev = index+1
+                if sw in comparelist:
+                    correctres = correctres + 1
+                    break
+            te_predicted_sw[word] = subword_list
+
         self.accuracy.append(correctres/len(self.predicted))
-    
+
+        fp = codecs.open("data/test_debug.txt", 'w', 'utf8')
+        fp.write(str(te_predicted_sw))
+        fp.close()
 
     ####Unused functions for now
     # predict for a given word: First prob is for 0(no-split) and second for 1 (split)
@@ -198,9 +233,11 @@ if __name__ == '__main__':
     if len(sys.argv) == 3:
         feature_file = sys.argv[1]
         label_file = sys.argv[2]
+        label_data = sys.argv[3]
     else:
         feature_file = 'data/labelled_feature.txt'
         label_file = 'data/labels_dict.txt'
+        label_data = 'data/labels_data.txt'
 
     with codecs.open(feature_file, 'r', 'utf8') as fp:
         contents = fp.read()
@@ -210,8 +247,12 @@ if __name__ == '__main__':
         contents = fp1.read()
         labeldict = ast.literal_eval(contents)
 
+    with codecs.open(label_data, 'r', 'utf8') as fp2:
+        contents = fp2.read()
+        labeldata = ast.literal_eval(contents)
+
     #Feature dictionary, label dictionary, cross-validation, number of trees
-    rfc = RandomForest(featuredict, labeldict,5, 50)
+    rfc = RandomForest(featuredict, labeldict,labeldata,1, 75)
     rfc.cross_validation()
 
     '''rfc.test_train_split()

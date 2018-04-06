@@ -30,13 +30,11 @@ for word, labellist in word_list.items():
             if loc != -1:
                 label_index = []
                 for i in range(len(word)):
-                    label_index.append(i)
-                    if loc - 1 == i:
+                    label_index.append(i)                    
+                    if (loc - 1) == i:
                         label_index.append(1)
                     elif loc + len(subword)-1 == i:
-                        label_index.append(1) 
-                    elif i == len(word) - 1:
-                        label_index.append(1)                       
+                        label_index.append(1)
                     else:
                         label_index.append(0)
                 word_label[word] = label_index
@@ -45,16 +43,13 @@ for word, labellist in word_list.items():
         label_index = []
         for i in range(len(word)):
             label_index.append(i)
-            if i == len(word) - 1:
-                label_index.append(1)
-            else:
-                label_index.append(0)
+            label_index.append(0)
         word_label[word] = label_index
 
         
 
 
-fp = codecs.open("data/debug.txt", 'w', 'utf8')
+fp = codecs.open("data/labels_data.txt", 'w', 'utf8')
 fp.write(str(word_list))
 fp.close()
 

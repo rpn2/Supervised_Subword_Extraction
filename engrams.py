@@ -30,6 +30,7 @@ def create_backward_trigram(word, charcount):
 '''string = "learning"
 for i in range(len(string)):
 	print("____________________________________")
+	print("pivot.  ",  string[i])
 	print("engram1: " + create_forward_engram(string, i))
 	print("engram2: " + create_backward_engram(string, i))
 	print("bigram1: " + create_forward_bigram(string, i))
