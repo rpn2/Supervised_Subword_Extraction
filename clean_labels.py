@@ -20,9 +20,11 @@ with open('data/roots.txt', 'r') as source_data:
                 word_list[word] = word_list.get(word,[]) + datalist[1:]
                 word_cnt[word] = word_cnt[word] + 1
     
-
+clean_up = {}
+zero_length = {}
 
 for word, labellist in word_list.items():
+    found = 0
     modlist = sorted(labellist, key=len)[::-1]       
     if len(modlist) > 0:
         for subword in modlist:
@@ -38,16 +40,24 @@ for word, labellist in word_list.items():
                     else:
                         label_index.append(0)
                 word_label[word] = label_index
+                found = 1
                 break
+        if found == 0:
+            clean_up[word] = labellist
+
+
     else:
         label_index = []
         for i in range(len(word)):
             label_index.append(i)
             label_index.append(0)
         word_label[word] = label_index
+        zero_length[word] = 1
 
         
-
+fp = codecs.open("data/zero_length.txt", 'w', 'utf8')
+fp.write(str(clean_up))
+fp.close()
 
 fp = codecs.open("data/labels_data.txt", 'w', 'utf8')
 fp.write(str(word_list))

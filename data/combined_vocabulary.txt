@@ -23063,7 +23063,6 @@ aqueduct,2
 arborist,1
 arborous,1
 archbishop,1
-chief,4
 archenemy,1
 matriarch,3
 monarch,1
@@ -23172,7 +23171,6 @@ cryptic,2
 encrypt,1
 accumulate,1
 dethrone,1
-deka,3
 decathlon,1
 deciliter,1
 decimate,2
@@ -23243,7 +23241,6 @@ fiduciary,1
 deflect,1
 inflection,2
 florist,1
-fleur,3
 floral,2
 flora,1
 forsaken,1
@@ -23378,7 +23375,6 @@ elucidate,1
 lucid,1
 prelude,1
 delude,1
-lumen,1
 lunar,2
 lunarscape,1
 lunatic,2
@@ -23514,8 +23510,6 @@ parasite,1
 parachute,1
 parasol,2
 paternal,1
-patri,3
-patr,3
 paternity,1
 patriarch,2
 antipathy,1
@@ -24449,7 +24443,6 @@ octaval,1
 octogenary,1
 octogesimal,1
 octonary,1
-ullage,1
 oculus,1
 pentode,2
 tetrode,2
@@ -24617,7 +24610,6 @@ preponderance,1
 pontoon,1
 pore,1
 porcine,1
-pork,1
 porphyrin,1
 potable,1
 hippopotamus,1

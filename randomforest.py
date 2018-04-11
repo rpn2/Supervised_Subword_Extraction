@@ -13,14 +13,18 @@ import codecs
 
 class RandomForest:
 
-    def __init__(self, totalfeat, totallabel, labeldata,cv_count = 10, num_trees=50):
+    def __init__(self, totalfeat, totallabel, labeldata,cv_count = 10, num_trees=50, max_features= "auto", max_depth = None):
         self.tfeat = totalfeat
         self.tlabel = totallabel
-        self.num_trees = num_trees        
+        self.num_trees = num_trees  
+        self.max_depth = max_depth   
+        self.max_features = max_features   
         self.cv_count = cv_count
         self.label_data = labeldata
         self.accuracy = []
         self.tr_accuracy = []
+        self.nores = []
+        self.wrongres = []
 
 
     def cross_validation(self):
@@ -34,14 +38,16 @@ class RandomForest:
             self.predicted = {}
             self.test_train_split()
             self.prepare_tr_vectors()
-            self.label_encoding()
-            '''self.model_training()
+            #self.label_encoding()
+            self.model_training()
             self.training_accuracy()
             self.model_predict_simple()
-            self.check_accuracy_simple()'''
+            self.check_accuracy_simple()
 
         print("training accuracy", self.tr_accuracy)
         print("test accuracy", self.accuracy)
+        print("nores percentage", self.nores)
+        print("wrongres percentage", self.wrongres)
 
 
 
@@ -74,29 +80,15 @@ class RandomForest:
                     totalfeatures.append(val)
                 totallabels = totallabels + tmplist
 
-        self.fc = pd.DataFrame(totalfeatures)
+        self.featurevector = pd.DataFrame(totalfeatures)
         self.labels = np.array(totallabels)
 
-    def label_encoding(self):
-
-        print(self.fc[1:3])
-
-        self.featurevector =self.fc.iloc[ :,1:11]
-        self.le1 = preprocessing.LabelEncoder()
-        self.le1.fit(self.fc[12])
-        self.featurevector[12] = self.le1.transform(self.fc[12])
-
-        self.le2 = preprocessing.LabelEncoder()
-        self.le2.fit(self.fc[13])
-        self.featurevector[13] = self.le2.transform(self.fc[13])
-
-        print(self.featurevector[1:3])
-
+    
 
     # Fit a random forest model
     def model_training(self):
 
-        self.rf = RandomForestClassifier(n_estimators=self.num_trees)
+        self.rf = RandomForestClassifier(n_estimators=self.num_trees, max_features = self.max_features, max_depth= self.max_depth)
         self.rf.fit(self.featurevector,self.labels)
 
     # predict for a given word: Training accuracy
@@ -104,18 +96,16 @@ class RandomForest:
 
         tr_predicted = {}
         tr_predicted_sw = {}
-
-        for word, vallist in self.trainfeat.items():
-            labellist = []
-            for each_vector in vallist:
-                testvector = np.array(each_vector)
-                pval= self.rf.predict(testvector.reshape(1, -1))
-                labellist.append(pval)
-            tr_predicted[word] = labellist
+        
+        for word, vallist in self.trainfeat.items():            
+            each_word = pd.DataFrame(vallist)        
+            labellist = self.rf.predict(each_word)
+            tr_predicted[word] = labellist.tolist()
 
         correctres = 0
-        j = 0;
+        
         for word, predlabellist in tr_predicted.items():  
+            found = 0
             indices = [i for i, x in enumerate(predlabellist) if x == 1]
             subword_list = []
             prev = 0
@@ -126,7 +116,13 @@ class RandomForest:
                 prev = index+1
                 if sw in comparelist:
                     correctres = correctres + 1
+                    found = 1
                     break
+            sw = word[prev:len(word)]
+            subword_list.append(sw)
+            if (found == 0 and sw in comparelist):
+                correctres = correctres + 1
+
             tr_predicted_sw[word] = subword_list
 
         self.tr_accuracy.append(correctres/len(tr_predicted))
@@ -135,30 +131,29 @@ class RandomForest:
         fp.write(str(tr_predicted_sw))
         fp.close()
              
-           
-        
 
      # predict for a given word: 
     def model_predict_simple(self):
 
-        for word, vallist in self.testfeat.items():
-            labellist = []
-            for each_vector in vallist:
-                testvector = np.array(each_vector)                
-                pval= self.rf.predict(testvector.reshape(1, -1))
-                labellist.append(pval)
-            self.predicted[word] = labellist
+        for word, vallist in self.testfeat.items():            
+            each_word = pd.DataFrame(vallist)
+            labellist = self.rf.predict(each_word)
+            self.predicted[word] = labellist.tolist()
 
     # Check accuracy
     def check_accuracy_simple(self):
 
         correctres = 0        
         te_predicted_sw = {}
+        nores = 0
+        wrongres = 0
+        wrongword = {}
 
         for word, predlabellist in self.predicted.items():  
             indices = [i for i, x in enumerate(predlabellist) if x == 1]
             subword_list = []
             prev = 0
+            det_ans = 0
             comparelist = self.label_data[word]            
             for index in indices:
                 sw = word[prev:index+1]
@@ -166,13 +161,40 @@ class RandomForest:
                 prev = index+1
                 if sw in comparelist:
                     correctres = correctres + 1
+                    det_ans = 1
                     break
-            te_predicted_sw[word] = subword_list
+            sw = word[prev:len(word)]
+            if sw != word:
+                subword_list.append(sw)
+
+            if (det_ans == 0 and sw in comparelist):
+                correctres = correctres + 1
+                det_ans = 1
+            if det_ans == 0:
+            	if len(subword_list) == 0:
+            		nores = nores + 1
+            	else:
+            		wrongres = wrongres + 1
+            		lst =[]
+            		lst.append(subword_list)
+            		lst.append(comparelist)
+            		wrongword[word] = lst
+            
+            lst =[]
+            lst.append(subword_list)
+            lst.append(comparelist)
+            te_predicted_sw[word] = lst
 
         self.accuracy.append(correctres/len(self.predicted))
+        self.nores.append(nores/len(self.predicted))
+        self.wrongres.append(wrongres/len(self.predicted))
 
         fp = codecs.open("data/test_debug.txt", 'w', 'utf8')
         fp.write(str(te_predicted_sw))
+        fp.close()
+
+        fp = codecs.open("data/wrong_word.txt", 'w', 'utf8')
+        fp.write(str(wrongword))
         fp.close()
 
     ####Unused functions for now
@@ -249,7 +271,7 @@ if __name__ == '__main__':
         labeldata = ast.literal_eval(contents)
 
     #Feature dictionary, label dictionary, cross-validation, number of trees
-    rfc = RandomForest(featuredict, labeldict,labeldata,1, 75)
+    rfc = RandomForest(featuredict, labeldict,labeldata,cv_count=5, num_trees=100,max_features= 12)
     rfc.cross_validation()
 
     '''rfc.test_train_split()

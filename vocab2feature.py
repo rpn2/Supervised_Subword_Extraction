@@ -34,6 +34,15 @@ class Vocab2Feature:
         self.en_bg  = en_bg
         self.en_tg  = en_tg
 
+        #Charcter encoding
+        self.uni = {}
+        self.bi = {}
+        self.tri = {}
+
+        self.unicnt = 0
+        self.bicnt = 0
+        self.tricnt = 0
+
     # Parse Input file and store as dictionary
     def parse_input(self):
         total_word_count = 0
@@ -75,8 +84,11 @@ class Vocab2Feature:
 
     def calculate_entropy(self):
 
+        self.tot_ent = 0 
+        self.tot_ent_rev = 0 
+
         for word in self.word_counts.keys(): 
-            #word = 'learning'
+            
             prefix = u''            
             for character in word:
                 prefix += character
@@ -98,6 +110,9 @@ class Vocab2Feature:
                     else:
                         #This needs to be infinity, could RF handle INF 
                         self.prefix_entropy[prefix] = 0
+
+                    if len(prefix) == 1:
+                         self.tot_ent =  self.tot_ent +(-self.trie[prefix]/len(self.word_counts))* math.log(self.trie[prefix]/len(self.word_counts), 2)
 
             reverse_word=word[::-1]
             prefix = u''            
@@ -121,8 +136,14 @@ class Vocab2Feature:
                         #This needs to be infinity, could RF handle INF
                         self.reverse_prefix_entropy[prefix] = 0
 
+                    if len(prefix) == 1:
+                        self.tot_ent_rev =  self.tot_ent_rev +(-self.reverse_trie[prefix]/len(self.word_counts))* math.log(self.reverse_trie[prefix]/len(self.word_counts), 2)
+
+
     #Populates entropy, subword and wordcount features for every split point in word and reverse_word
     def feature_entropy_subword(self):
+
+        #print(self.tot_ent_rev,self.tot_ent)
 
         for word,word_count in self.word_counts.items():
             
@@ -134,47 +155,47 @@ class Vocab2Feature:
                 feature_index = 0
 
                 char_vector = char_list[charcount]
-                beforesp = word[:charcount] if charcount > 0 else ' '
+                beforesp = word[:charcount] if charcount > 0 else ''
                 currsp   = word [:charcount+1]
-                aftersp  = word[:charcount+2] if charcount < (len(word) - 1) else ' '
+                aftersp  = word[:charcount+2] if charcount < (len(word) - 1) else word[:len(word)]
 
                 #Entropy, sub-word count for reverse
-                rev_beforesp = reverse_word[:revcharcount] if revcharcount > 0 else ' '
+                rev_beforesp = reverse_word[:revcharcount] if revcharcount > 0 else ''
                 rev_currsp   = reverse_word [:revcharcount+1]
-                rev_aftersp  = reverse_word[:revcharcount+2] if revcharcount < (len(word) - 1) else ' '
+                rev_aftersp  = reverse_word[:revcharcount+2] if revcharcount < (len(word) - 1) else reverse_word[:len(reverse_word)]
 
                 #populate entropy
 
                 if (self.en_ent == 1):
-                    char_vector[feature_index]  = self.prefix_entropy.get(u''+ beforesp,0)
+                    char_vector[feature_index]  = self.prefix_entropy.get(u''+ beforesp) if len(beforesp) > 0 else round(self.tot_ent,4) 
                     feature_index += 1
                     char_vector[feature_index]  = self.prefix_entropy.get(u''+ currsp)
                     feature_index += 1
-                    char_vector[feature_index]  = self.prefix_entropy.get(u''+ aftersp,0)
+                    char_vector[feature_index]  = self.prefix_entropy.get(u''+ aftersp)
                     feature_index += 1               
 
-                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_beforesp,0)
+                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_beforesp) if len(rev_beforesp) > 0 else round(self.tot_ent_rev,4)
                     feature_index += 1
-                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_currsp,0)
+                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_currsp) if len(rev_currsp) > 0 else round(self.tot_ent_rev,4) 
                     feature_index += 1
-                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_aftersp,0)
+                    char_vector[feature_index]  = self.reverse_prefix_entropy.get(u''+ rev_aftersp)
                     feature_index += 1    
                 
                 #populate subword count
 
                 if (self.en_sw == 1):
-                    char_vector[feature_index]  = self.trie.get(u''+ beforesp,0)
+                    char_vector[feature_index]  = self.trie.get(u''+ beforesp) if len(beforesp) > 0 else len(self.word_counts)  
                     feature_index += 1
                     char_vector[feature_index]  = self.trie.get(u''+ currsp)
                     feature_index += 1
-                    char_vector[feature_index]  = self.trie.get(u''+ aftersp,0) 
+                    char_vector[feature_index]  = self.trie.get(u''+ aftersp) 
                     feature_index += 1     
 
-                    char_vector[feature_index]   = self.reverse_trie.get(u''+ rev_beforesp,0)
+                    char_vector[feature_index]   = self.reverse_trie.get(u''+ rev_beforesp) if len(rev_beforesp) > 0 else len(self.word_counts)
                     feature_index += 1
-                    char_vector[feature_index]  = self.reverse_trie.get(u''+ rev_currsp,0)
+                    char_vector[feature_index]  = self.reverse_trie.get(u''+ rev_currsp) if len(rev_currsp) > 0 else len(self.word_counts)
                     feature_index += 1
-                    char_vector[feature_index]  = self.reverse_trie.get(u''+ rev_aftersp,0)
+                    char_vector[feature_index]  = self.reverse_trie.get(u''+ rev_aftersp)
                     feature_index += 1           
                               
 
@@ -185,21 +206,53 @@ class Vocab2Feature:
 
                 #populate engram, bigrams, trigrams
                 if (self.en_ng == 1):
-                    char_vector[feature_index] = engrams.create_forward_engram(word, charcount)
+                    ret = engrams.create_forward_engram(word, charcount)
+                    if ret not in self.uni:
+                        self.uni[ret] = self.unicnt 
+                        self.unicnt = self.unicnt + 1
+
+                    char_vector[feature_index] = self.uni[ret]
                     feature_index += 1
-                    char_vector[feature_index] = engrams.create_backward_engram(word, charcount)
+
+                    ret = engrams.create_backward_engram(word, charcount)
+                    if ret not in self.uni:
+                        self.uni[ret] = self.unicnt 
+                        self.unicnt = self.unicnt + 1
+
+                    char_vector[feature_index] = self.uni[ret]
                     feature_index += 1
 
                 if (self.en_bg == 1):
-                    char_vector[feature_index] = engrams.create_forward_bigram(word, charcount)
+                    ret = engrams.create_forward_bigram(word, charcount)
+                    if ret not in self.bi:
+                        self.bi[ret] = self.bicnt 
+                        self.bicnt = self.bicnt + 1
+
+                    char_vector[feature_index] = self.bi[ret]
                     feature_index += 1
-                    char_vector[feature_index] = engrams.create_backward_bigram(word, charcount)
+
+                    ret = engrams.create_backward_bigram(word, charcount)
+                    if ret not in self.bi:
+                        self.bi[ret] = self.bicnt 
+                        self.bicnt = self.bicnt + 1
+
+                    char_vector[feature_index] = self.bi[ret]
                     feature_index += 1
 
                 if (self.en_tg == 1):
-                    char_vector[feature_index] = engrams.create_forward_trigram(word, charcount)
+                    ret = engrams.create_forward_trigram(word, charcount)
+                    if ret not in self.tri:
+                        self.tri[ret] = self.tricnt 
+                        self.tricnt = self.tricnt + 1
+
+                    char_vector[feature_index] = self.tri[ret]
                     feature_index += 1
-                    char_vector[feature_index] = engrams.create_backward_trigram(word, charcount)
+
+                    ret = engrams.create_backward_trigram(word, charcount)
+                    if ret not in self.tri:
+                        self.tri[ret] = self.tricnt 
+                        self.tricnt = self.tricnt + 1
+                    char_vector[feature_index] = self.tri[ret]
                     feature_index += 1
                 
                 char_list[charcount] = char_vector
@@ -242,9 +295,9 @@ if __name__ == '__main__':
         output_file = 'data/populated_feature.txt'
 
     #vocabulary_data, feature_output, num_features=19, en_ent = 1, en_sw = 1, en_wc = 1, en_ng = 1, en_bg = 1, en_tg = 1
-    v2f = Vocab2Feature(input_file,output_file,14,1,1,0,1,0,0)
+    v2f = Vocab2Feature(input_file,output_file,18,1,1,0,1,1,1)
     v2f.parse_input()
-    v2f.calculate_entropy()
+    v2f.calculate_entropy()    
     v2f.feature_entropy_subword()
     v2f.check_featuredict()
     #v2f.check_entropy()

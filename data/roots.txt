@@ -34,7 +34,7 @@ nostalgia	alg algo
 ambidextrous	ambi  amphi
 ambiguous	ambi  amphi
 ambivalence	ambi  amphi
-amble	ambul
+amble	amble
 ambulant	ambul
 ambulance	ambul
 amiable	amio ami
@@ -73,13 +73,9 @@ arborist	arbor
 arbor	arbor
 arborous	arbor
 archbishop	arch archi
-chief  most important  rule
 archenemy	arch archi
-chief  most important  rule
 matriarch	arch archi
-chief  most important  rule
 monarch	arch archi
-chief  most important  rule
 archaeology	arch archi archa
 archaic	arch archi archa
 archive	arch archi archa
@@ -102,11 +98,11 @@ aviary	avi avia
 aviatrix	avi avia
 aviation	avi avia
 baric	baro bar
-milliard	baro bar
+milliard	milli 
 baryon	baro bar
 bellicose	bell belli
 belligerent	bell belli
-rebel	bell belli
+rebel	reb
 benefactor	bene
 beneficial	bene
 benevolent	bene
@@ -186,7 +182,7 @@ declare	clar
 conclusion	clud  clus
 exclusion	clud  clus
 seclude	clud  clus  
-inclination	cline
+inclination	clin
 incline	cline
 recline	cline
 coauthor	co
@@ -215,8 +211,8 @@ counteract	counter
 countermand	counter
 counteroffensive	counter
 craniology	cranio
-cranium	cranio
-cranial	cranio
+cranium	crani
+cranial	crani
 credence	cred
 credulous	cred
 incredible	cred
@@ -224,7 +220,7 @@ crucifix	cruc
 excruciating	cruc
 cryptic	crypto
 cryptography	crypto
-encrypt	crypto
+encrypt	crypt
 accumulate	cumul
 cumulative	cumul
 concurrent	 curs curr
@@ -236,12 +232,9 @@ cyclone	cycl
 decelerate	de
 dethrone	de
 debug	de
-decade	dec  
-deka deca
-decathlon	dec  
-deka deca
-December	dec  
-deka deca
+decade	dec deca deca
+decathlon	dec deca deca
+December	de deca deca
 deciliter	deci
 decimate	deci
 decibel	deci
@@ -344,12 +337,9 @@ fiduciary	fid
 deflect	flect
 inflection	flect
 flexible	flect
-florist	 
-fleur flora flor
-floral	 
-fleur flora flor
-flora	 
-fleur flora flor
+florist fleur flora flor
+floral fleur flora flor
+flora fleur flora flor
 forsaken	for
 forgiven	for
 forebear	fore
@@ -413,7 +403,6 @@ hectoliter	 hecat hecto hect
 hectare	 hecat hecto hect
 hectometer	 hecat hecto hect
 helicopter	helic helico
-helix	helic helico
 helicon	helic helico
 heliotropism	helio heli
 heliograph	helio heli
@@ -504,8 +493,8 @@ kilobyte	kilo
 kilometer	kilo
 kilograms	kilo
 kinetics	kinemat kine kinet
-psychokinesis	kinemat kine kinet
-cinematography	kinemat kine kinet
+psychokinesis	kinesis 
+cinematography	cinemat cine cinet
 collaborate	lab
 elaborate	lab
 laborious	lab
@@ -529,7 +518,7 @@ linguine	lingu
 liposuction	lipo lip
 lipase	lipo lip
 lipoid	lipo lip
-apatite	lite  
+apatite	tite  
 litho  ite lith
 granite	lite  
 litho  ite lith
@@ -549,8 +538,7 @@ translucent	luc
 prelude	 lus lud
 illusion	 lus lud
 delude	 lus lud
-illuminate	lumin
-lumen	lumin
+illuminate	lumin lumen	lumin
 lunar	luna luni lun
 lunarscape	luna luni lun
 lunatic	luna luni lun
@@ -590,7 +578,7 @@ megaphone	mega
 megastructure	mega
 melancholy	melano melan
 melanoma	melano melan
-melodrama	melano melan
+melodrama	melano melo
 commemorate	memor memori
 memorial	memor memori
 memory	memor memori
@@ -637,7 +625,7 @@ motivate	 mov mot
 promote	 mov mot
 removable	 mov mot
 metamorphosis	morpho morph
-endorphins	morpho morph
+endorphins	morpho dorph
 amorphous	morpho morph
 immortal	mort
 mortal	mort
@@ -743,15 +731,9 @@ parallel	para
 paragraph	para
 parachute	para
 parasol	para
-paternal	 
-patri pater  
-patr
-paternity	 
-patri pater  
-patr
-patriarch	 
-patri pater  
-patr
+paternal patri pater patr
+paternity patri pater patr
+patriarch patri pater patr
 antipathy	path
 apathy	path
 empathy	path
@@ -803,7 +785,7 @@ explosion	 plos plaud  plod  plaus
 plausible	 plos plaud  plod  plaus
 pneumonia	pneum pneumo
 pneumatic	pneum pneumo
-dyspnea	pneum pneumo
+dyspnea	dys
 podiatrist	pode pod
 podium	pode pod
 tripod	pode pod
@@ -868,7 +850,7 @@ quintessence	quint quin
 quintuple	quint quin
 eradicate radix radic
 radical	radix radic
-radish	radix radic
+radish	rad
 radioactive	radio
 radiologist	radio
 ramification	ram rami
@@ -918,7 +900,7 @@ microscope	scope scopy scop
 periscope	scope scopy scop
 telescope	scope scopy scop
 inscribe script scrib scribe	 
-script scrib
+script scrip
 describe script scrib
 secede	se
 seclude	se
@@ -1020,7 +1002,7 @@ terrain	terra terr terri
 territory	terra terr terri
 tetrapod	tetra
 tetrarchy	tetra
-tetrose	tetra
+tetrose	tetro
 bibliotheca	the
 theme	the
 thesis	the
@@ -1110,7 +1092,6 @@ zooid	zoo zo
 zooplankton	zoo zo
 zygote	zygo zyg
 zygomorphic	zygo zyg
-English examples	Root
 abnormal	a ab abs
 abrasion	a ab abs
 aversion	a ab abs
@@ -1194,7 +1175,7 @@ arid	ar
 archaeology	arche archae
 archeology	arche archae
 archaic	arche archae
-archangel	archi arche
+archangel	archi arch
 archetype	archi arche
 arctic ocean	arct
 argent	argent
@@ -1202,7 +1183,7 @@ argentina	argent
 aristocracy	arist
 arthropod	arthr
 arthritis	arthr
-disaster	astr
+disaster	aster
 astronomy	astr
 astrology	astr
 asterisk	astr
@@ -1264,7 +1245,7 @@ brachiosaurus	brachi
 brachial artery	brachi
 brachydactyly	brachy
 bradycardia	brady
-nudibranch	branchi
+nudibranch	branch
 branchiopod	branchi
 brevity	brevi
 abbreviation	brevi
@@ -1299,7 +1280,7 @@ apocalypse	calyp
 bicameral	camer
 camera	camer
 campaign	camp
-champion	camp
+champion	champ
 Canis Major	can
 canine	can
 cantata	cant can cin
@@ -1307,9 +1288,9 @@ canto	cant can cin
 cantor	cant can cin
 incandescent	cand
 candela	cand
-incendiary	cand
+incendiary	cend
 candor	cand
-incense	cand
+incense	cense
 candle	cand
 candid	cand
 conception	capt cept cap cip
@@ -1374,7 +1355,7 @@ ceramic	ceram
 keratin	kerat
 secern	cern
 discern	cern
-cervix	cervic
+cervix	cervix
 cervical	cervic
 etcetera	ceter
 chiropractic	chir
@@ -1419,7 +1400,7 @@ clavichord	clav
 conclave	clav
 cleithrum	cleithr
 inclement	clement
-clemency	clement
+clemency	clemen
 inclined	clin
 declination	clin
 cochlea	cochl
@@ -1459,7 +1440,7 @@ corona	coron
 coronation	coron
 corpse	corpor
 corporation	corpor
-corpuscle	corpor
+corpuscle	corpus
 corticosteriod	cortic
 cosmonaut	cosm
 cosmic	cosm
@@ -1477,7 +1458,7 @@ credibility	cred
 creditor	cred
 credentials	cred
 cribrate	cribr
-cribble	cribr
+cribble	crib
 crisis	crit cris
 critic	crit cris
 crispate	crisp
@@ -1514,7 +1495,6 @@ cynosure	cyn
 cystic	cyst
 cnidocyte	cyt
 cytoplasm	cyt
-English examples	Root
 pterodactyl	dactyl
 dactylology	dactyl
 damnation	damn demn
@@ -1544,7 +1524,7 @@ dermis	derm
 epidermis	derm
 deuterostome	deuter
 Deuteronomy	deuter
-dextrose	dexter
+dextrose	dext
 dexterity	dexter
 Dexiarchia	dexi
 dipole	di
@@ -1591,14 +1571,14 @@ endure	dur
 duress	dur
 dyad	dy
 dynamism	dynam
-dynasty	dynam
+dynasty	dyna
 dynamite	dynam
 dysentery	dys
 dystrophy	dys
 dysplasia	dys
 eccentric	ec
 economics	eco
-ecumenism	eco
+ecumenism	ecu
 ecology	eco
 ectoderm	ecto
 edible	es ed
@@ -1855,7 +1835,7 @@ homophone	hom
 homosexual	hom
 homeostasis	home
 hominid	homin
-anomalous	homal
+anomalous	anomal
 honorable	honor
 honorarium	honor
 horizon	hor
@@ -1923,16 +1903,16 @@ trajectory	ject jac
 ejaculate	ject jac 
 interject	ject jac 
 eject	ject jac 
-janitor	janu
+janitor	jani
 jocularity	joc
 conjugal	jug
 subjugate	jug
 juncture	jung junct
 conjunction	jung junct
 juniority	junior
-jury	judic 
-judge	judic 
-justice	judic 
+jury	jur 
+judge	jud 
+justice	jus 
 adjutant	juv jut
 rejuvenate	juven
 juvenile	juven
@@ -1978,9 +1958,8 @@ relegate	leg
 leiomyoma	lei
 lekane	lekan
 leniency	leni
-Leopold	leon
-leonine	leon
-Leo	leon
+Leopold	leo
+leonine	leon Leo	leon
 Lepidoptera	lep
 epilepsy	leps
 leucocyte	leuco leuko
@@ -2029,7 +2008,6 @@ lunar	lun
 hydrolysis	lysis
 cytolysis	lysis
 analysis	lysis
-English examples	Root
 macron	macro
 magnitude	magn
 magnificent	magn
@@ -2128,8 +2106,8 @@ monolith	mon
 monotone	mon
 Moniliformida	monil
 Montana	mont
-morsel	mord
-remorse	mord
+morsel	morse
+remorse	morse
 mordacious	mord
 morphology	morph
 anthropomorphism	morph
@@ -2137,7 +2115,7 @@ morpheme	morph
 mortality	mort
 immortal	mort
 mortuary	mort
-momentum	mot mov
+momentum	mom mov
 mobile	mot mov
 motor	mot mov
 move	mot mov
@@ -2147,20 +2125,19 @@ multitude	mult
 multiple	mult
 immured	mur
 mural	mur
-mouse	mus
+mouse	mou
 Muscicapidae	musc
 Muscidae	musc
 mutation	mut
-musophobia	my
+musophobia	muso
 myriapod	myri
 myriad	myri
 myrmecoid	myrmec
-Myrmidons	myrmec
+Myrmidons	myr
 mythic	myth
 mythology	myth
 Myxini	myx
 Myzopoda	myz
-English examples	Root
 narcosis	narc
 narcotic	narc
 narrative	narr
@@ -2237,7 +2214,6 @@ octogenary	octogen
 octogesimal	octogesim
 octonary	octon
 ocular	ocul
-ullage	ocul
 oculus	ocul
 odometer	od
 pentode	od
@@ -2286,7 +2262,7 @@ opera	oper
 ophiophagy	ophi
 ophthalmology	ophthalm
 opisthosoma	opisth
-opsimath	opisth
+opsimath	opsi
 optical	opt
 adopt	opt
 optional	opt
@@ -2403,7 +2379,7 @@ philosophy	phile phil
 hydrophile	phile phil
 phlegmatics	phleg
 phlegm	phleg
-phlobaphene	phloe
+phlobaphene	phlo
 phloem	phloe
 hydrophobia	phob
 homophone	phon
@@ -2421,7 +2397,7 @@ phylum	phyl
 phyllotaxis	phyll
 chlorophyll	phyll
 physics	phys
-physalis	physalid
+physalis	physal
 phytoplankton	phyt
 neophyte	phyt
 epilator	pil
@@ -2489,8 +2465,7 @@ preponderance	ponder
 pontoon	pont
 population	popul
 pore	por
-porcine	porc
-pork	porc
+porcine	porc pork	porc
 porphyrin	porphyr
 portal	port
 export	port
@@ -2521,7 +2496,7 @@ probation	prob
 proctology	proct
 propriety	propri
 appropriate	propri
-property	propri
+property	proper
 protoplasm	prot
 approximate	proxim
 proximity	proxim
@@ -2564,7 +2539,7 @@ quadragenary	quadragen
 quadragesimal	quadragesim
 quartary	quart
 quartile	quart
-quasar	quasi
+quasar	quas
 quaternary	quatern
 quaternion	quatern
 query	quesit quisit quir quer
@@ -2862,7 +2837,6 @@ symmetry	syn sym sy syl
 symbol	syn sym sy syl
 synonym	syn sym sy syl
 syringe	syring
-English examples	Root
 reticent	tac tic
 tacit	tac tic
 tachycardia	tach
@@ -2875,8 +2849,8 @@ tactile	tag tact tang ting
 contact	tag tact tang ting
 tangent	tag tact tang ting
 tapetum	tapet
-tapis	tapet
-tapestry	tapet
+tapis	tap
+tapestry	tape
 tardy	tard
 tardigrade	tard
 retard	tard
@@ -2939,18 +2913,18 @@ theca	the
 theme	the
 Bibliotheca	the
 thesis	the
-theorem	theori
-theory	theori
+theorem	theor
+theory	theor
 theroid	ther
 theropod	ther
 endotherm	therm
 thermometer	therm
 dysthymia	thym
 thyratron	thyr
-thyrotropin	thyre
-thyroxine	thyre
+thyrotropin	thyr
+thyroxine	thyr
 Thyreophora	thyre
-thyroid	thyre
+thyroid	thyr
 timorous	tim
 timid	tim
 tincture	tinct ting
@@ -2963,8 +2937,8 @@ tone	ton
 topography	top
 topic	top
 torpent	torpe
-torpor	torpe
-torpid	torpe
+torpor	torp
+torpid	torp
 torque	tort torqu
 extortion	tort torqu
 torture	tort torqu
@@ -2972,7 +2946,7 @@ totality	tot
 total	tot
 subtotal	tot
 trabeculae	trab
-trachea	trachy
+trachea	trach
 tragus	trag
 tractor	trah tract
 subtrahend	trah tract
@@ -2986,7 +2960,7 @@ traumatic	traum
 trecentillion	trecent
 trecentennial	trecent
 tredecimal	tredec
-triskaidekaphobia	treiskaidek
+triskaidekaphobia	triskaidek
 tremor	trem
 trematode	trema
 tripod	tri
@@ -3019,7 +2993,6 @@ tympani	tympan
 typography	typ
 phenotype	typ
 archetype	typ
-English examples	Root
 exuberant	uber
 uliginous	uligin
 ultimatum	ultim
