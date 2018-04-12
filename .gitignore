@@ -50,3 +50,7 @@ coverage.xml
 
 .idea
 .ds
+
+# exclude generated data
+data/dblp_*
+data/sp_input.txt

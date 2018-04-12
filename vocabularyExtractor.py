@@ -14,7 +14,7 @@ if __name__ == '__main__':
         corpus_data = sys.argv[1]
         vocabulary_output = sys.argv[2]
     else:
-        corpus_data = 'data/mod.txt'
+        corpus_data = 'data/dblp.txt'
         vocabulary_output = 'data/updated_vocabulary.txt'
 
     print '{0} starting vocabulary extraction [SOURCE: {1}, OUTPUT: {2}]'.format(datetime.now(), corpus_data, vocabulary_output)
