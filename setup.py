@@ -9,4 +9,4 @@ setup(name='semi-supervised-morpheme-extraction',
       author='Ramya Narayanaswamy, Dariusz Kuc, Chris Kim',
       url='https://gitlab-beta.engr.illinois.edu/ssme/semi-supervised-morpheme-extraction',
       # packages=['utils'],
-      install_requires=['argparse', 'datetime', 'nltk', 'sklearn'])
+      install_requires=['datrie', 'nltk', 'numpy', 'pandas', 'sklearn'])
