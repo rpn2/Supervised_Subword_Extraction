@@ -6,6 +6,7 @@ import ast
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+#from sklearn.model_selection import KFold
 from sklearn import preprocessing
 import random
 import math
@@ -13,7 +14,7 @@ import codecs
 
 class RandomForest:
 
-    def __init__(self, totalfeat, totallabel, labeldata,cv_count = 10, num_trees=50, max_features= "auto", max_depth = None):
+    def __init__(self, totalfeat, totallabel, labeldata, prob_threshold = 0.3, cv_count = 10, num_trees=50, max_features= "auto", max_depth = None):
         self.tfeat = totalfeat
         self.tlabel = totallabel
         self.num_trees = num_trees  
@@ -25,10 +26,9 @@ class RandomForest:
         self.tr_accuracy = []
         self.nores = []
         self.wrongres = []
-
+        self.threshold = prob_threshold
 
     def cross_validation(self):
-
 
         for cv in range(self.cv_count):
             self.trainfeat = {}
@@ -37,17 +37,16 @@ class RandomForest:
             self.testlabels = {}
             self.predicted = {}
             self.test_train_split()
-            self.prepare_tr_vectors()
-            #self.label_encoding()
+            self.prepare_tr_vectors()           
             self.model_training()
             self.training_accuracy()
-            self.model_predict_simple()
-            self.check_accuracy_simple()
+            self.model_predict_prob()
+            self.check_accuracy()
 
-        print("training accuracy", self.tr_accuracy)
-        print("test accuracy", self.accuracy)
-        print("nores percentage", self.nores)
-        print("wrongres percentage", self.wrongres)
+        print("Average training accuracy", sum(self.tr_accuracy)/len(self.tr_accuracy))
+        print("Average test accuracy", sum(self.accuracy)/len(self.accuracy))
+        print("Average nores percentage", sum(self.nores)/len(self.nores))
+        print("Average wrongres percentage", sum(self.wrongres)/len(self.wrongres))
 
 
 
@@ -72,8 +71,7 @@ class RandomForest:
 
             labellist = self.trainlabels[word]
             tmplist = [labellist[i] for i in range(1,len(labellist),2)]
-            if len(tmplist) != len(list(word)):
-                #print(word,tmplist)
+            if len(tmplist) != len(list(word)):                
                 pass
             else:
                 for val in vallist:
@@ -97,10 +95,16 @@ class RandomForest:
         tr_predicted = {}
         tr_predicted_sw = {}
         
-        for word, vallist in self.trainfeat.items():            
-            each_word = pd.DataFrame(vallist)        
-            labellist = self.rf.predict(each_word)
-            tr_predicted[word] = labellist.tolist()
+        
+        for word, vallist in self.trainfeat.items():
+            labellist = []            
+            each_word = pd.DataFrame(vallist)
+            charprob = self.rf.predict_proba(each_word)
+            #Find indices of largest 2 elmements of class probability
+            ind = np.argpartition(charprob[:, 1], -2)[-2:]
+            prob_list = charprob[:, 1].tolist()
+            tr_predicted[word] = [1 if prob_list[x]  >= self.threshold and x in ind.tolist() else 0 for x in range(0, len(prob_list))]
+            
 
         correctres = 0
         
@@ -127,9 +131,9 @@ class RandomForest:
 
         self.tr_accuracy.append(correctres/len(tr_predicted))
 
-        fp = codecs.open("data/tr_debug.txt", 'w', 'utf8')
+        '''fp = codecs.open("data/tr_debug.txt", 'w', 'utf8')
         fp.write(str(tr_predicted_sw))
-        fp.close()
+        fp.close()'''
              
 
      # predict for a given word: 
@@ -141,7 +145,7 @@ class RandomForest:
             self.predicted[word] = labellist.tolist()
 
     # Check accuracy
-    def check_accuracy_simple(self):
+    def check_accuracy(self):
 
         correctres = 0        
         te_predicted_sw = {}
@@ -171,14 +175,14 @@ class RandomForest:
                 correctres = correctres + 1
                 det_ans = 1
             if det_ans == 0:
-            	if len(subword_list) == 0:
-            		nores = nores + 1
-            	else:
-            		wrongres = wrongres + 1
-            		lst =[]
-            		lst.append(subword_list)
-            		lst.append(comparelist)
-            		wrongword[word] = lst
+                if len(subword_list) == 0:
+                    nores = nores + 1
+                else:
+                    wrongres = wrongres + 1
+                    lst =[]
+                    lst.append(subword_list)
+                    lst.append(comparelist)
+                    wrongword[word] = lst
             
             lst =[]
             lst.append(subword_list)
@@ -197,52 +201,21 @@ class RandomForest:
         fp.write(str(wrongword))
         fp.close()
 
-    ####Unused functions for now
+
+
+    
     # predict for a given word: First prob is for 0(no-split) and second for 1 (split)
-    def model_predict_simpleAAAAAA(self):
+    def model_predict_prob(self):
 
-        for word, vallist in self.testfeat.items():
-            labellist = []
-            for each_vector in vallist:
-                testvector = pd.DataFrame(each_vector)
-                charprob= self.rf.predict_proba(testvector.reshape(1, -1))
-                if charprob[0][1] >= 0.5:
-                    labellist.append(1)
-                else:
-                    labellist.append(0)
+        for word, vallist in self.testfeat.items():                    
+            each_word = pd.DataFrame(vallist)
+            charprob = self.rf.predict_proba(each_word)
+            #Find indices of largest 2 elmements
+            ind = np.argpartition(charprob[:, 1], -2)[-2:]
+            prob_list = charprob[:, 1].tolist()
+            self.predicted[word] = [1 if prob_list[x]  >= self.threshold and x in ind.tolist() else 0 for x in range(0, len(prob_list))]
 
-            self.predicted[word] = labellist
-
-
-    # predict for a given word: First prob is for 0(no-split) and second for 1 (split)
-    def model_predict_maxlikelihood(self):
-
-        for word, vallist in self.testfeat.items():
-            charproblist = []
-            for each_vector in vallist:
-                testvector = np.array(each_vector)
-                charprob= self.rf.predict_proba(testvector.reshape(1, -1))
-                charproblist.append(charprob[0][1])
-            self.predicted[word] = charproblist
-
-
-    # Check accuracy
-    def check_accuracy_maxlikelihood(self):
-
-        correctres = 0
-        for word, predprob  in self.predicted.items():
-            tmplist = self.testlabels[word]
-            labellist = [tmplist[i] for i in range(1,len(tmplist),2)]
-            index_maxprob = max(range(len(predprob)), key=predprob.__getitem__)
-            if predprob[index_maxprob] >= 0.5 and labellist[index_maxprob] == 1:
-                correctres = correctres + 1
-
-            #Debug
-            print(word, labellist, index_maxprob, predprob[index_maxprob])
-
-        # Accuracy calculations to follow
-        print(correctres)
-
+            
 
     
 
@@ -271,16 +244,13 @@ if __name__ == '__main__':
         labeldata = ast.literal_eval(contents)
 
     #Feature dictionary, label dictionary, cross-validation, number of trees
-    rfc = RandomForest(featuredict, labeldict,labeldata,cv_count=5, num_trees=100,max_features= 12)
-    rfc.cross_validation()
+    threshold = [0.3, 0.4, 0.5]
+    for t in threshold:
+        print("threshold =", t)
+        rfc = RandomForest(featuredict, labeldict, labeldata, prob_threshold = t, cv_count=10, num_trees=100, max_features = 12)
+        rfc.cross_validation()
 
-    '''rfc.test_train_split()
-    rfc.prepare_tr_vectors()
-    rfc.model_training()
-    # rfc.model_predict_maxlikelihood()
-    # rfc.check_accuracy_maxlikelihood()
-    rfc.model_predict_simple()
-    rfc.check_accuracy_simple()'''
+    
 
 
 

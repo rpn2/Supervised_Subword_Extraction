@@ -294,7 +294,7 @@ if __name__ == '__main__':
         input_file = 'data/combined_vocabulary.txt'
         output_file = 'data/populated_feature.txt'
 
-    #vocabulary_data, feature_output, num_features=19, en_ent = 1, en_sw = 1, en_wc = 1, en_ng = 1, en_bg = 1, en_tg = 1
+    #vocabulary_data, feature_output, num_features=19, en_ent = 1, en_sw = 1, en_wc = 1, en_unig = 1, en_bg = 1, en_tg = 1
     v2f = Vocab2Feature(input_file,output_file,18,1,1,0,1,1,1)
     v2f.parse_input()
     v2f.calculate_entropy()    
