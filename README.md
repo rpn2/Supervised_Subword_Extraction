@@ -1,6 +1,6 @@
-# Semi Supervised Morpheme Extraction
+# Supervised Morpheme Extraction
 
-TODO
+
 
 ## Vocabulary Extractor
 
