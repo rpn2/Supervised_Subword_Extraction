@@ -32,8 +32,16 @@ Once all dependencies are installed you can run the wrapper using the following 
 Given a vocabulary list, feature vector for each word is generated. We are using datrie library for generating prefix trees.
 You may need to install the lib prior to running the feature extractor.
 
-	# example on how to run vocabulary extractor, creates feature.txt [feature vectors]
+	# example on how to run vocabulary extractor, creates populated_feature.txt [feature vectors]
     > python vocab2feature.py <input> <output>
+
+## Prepare Data
+
+This step extracts subset of words and their respective features for training and testing, based on labelled set
+
+	# example on how to run prepare data, creates labelled_feature.txt [feature vectors]
+    > python prepareData.py 
+
 
 ## Morpheme Classifier
 
@@ -42,7 +50,7 @@ Given a set of feature vectors, train the classifier model, currently sample pre
 	# example on how to run classifier
     > python randomforest.py 
 
-TODO
+
 
 
 ## Baseline
